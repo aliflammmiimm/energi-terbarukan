@@ -4,7 +4,7 @@ __pycache__/
 .venv/
 venv/
 .git/
-hasil/
+/hasil/
 kodeprogram1.ipynb
-data/
-staticfiles/
+/data/
+/staticfiles/
