@@ -1,0 +1,152 @@
+{% extends "pemeringkatan/base.html" %}
+{% block title %}Peringkat Resmi{% endblock %}
+{% block content %}
+<h1>Pemeringkatan Resmi</h1>
+<p class="sub">Hasil penelitian untuk {{ halaman.paginator.count }} Kabupaten/Kota dengan bobot AHP resmi. Peringkat utama memakai PROMETHEE II; TOPSIS ditampilkan sebagai pembanding.</p>
+
+<form class="filter" method="get">
+  <input type="search" name="q" value="{{ q }}" placeholder="Cari kabupaten/kota atau provinsi">
+  <select name="provinsi">
+    <option value="">Semua provinsi</option>
+    {% for p in daftar_provinsi %}<option value="{{ p }}" {% if p == prov %}selected{% endif %}>{{ p }}</option>{% endfor %}
+  </select>
+  <select name="urut">
+    <option value="promethee" {% if urut == 'promethee' %}selected{% endif %}>Urut: PROMETHEE II</option>
+    <option value="topsis" {% if urut == 'topsis' %}selected{% endif %}>Urut: TOPSIS</option>
+    <option value="nama" {% if urut == 'nama' %}selected{% endif %}>Urut: Nama</option>
+    <option value="provinsi" {% if urut == 'provinsi' %}selected{% endif %}>Urut: Provinsi</option>
+  </select>
+  <button class="btn utama" type="submit">Terapkan</button>
+  <a class="btn" href="{% url 'pemeringkatan:peringkat' %}">Reset</a>
+</form>
+
+{% if peta_wilayah %}
+<div class="map-panel">
+  <div class="map-toolbar">
+    <div>
+      <h2 style="margin-bottom:4px;">Peta Lokasi Wilayah Halaman Ini</h2>
+      <p class="sub" style="margin:0;">Pilih wilayah pada tabel atau klik marker untuk memusatkan peta ke kota/kabupaten terkait.</p>
+    </div>
+    <button type="button" class="btn" id="btn-fit-peringkat">Tampilkan Semua Marker</button>
+  </div>
+  <div id="peta-peringkat" class="leaflet-map-box" role="region" aria-label="Peta wilayah hasil pemeringkatan"></div>
+  <div id="peta-peringkat-status" class="map-tile-status" role="alert"></div>
+  <div class="map-legend map-legend-4" aria-label="Legenda dan informasi peta">
+    <div class="map-legend-item">
+      <span class="legend-dot first"></span>
+      <div class="map-legend-text">
+        <strong>Peringkat #1 Terbaik</strong>
+        <small>Penanda lokasi teratas</small>
+      </div>
+    </div>
+    <div class="map-legend-item">
+      <span class="legend-dot normal"></span>
+      <div class="map-legend-text">
+        <strong>Wilayah</strong>
+        <small>{{ halaman.paginator.count }} kabupaten/kota</small>
+      </div>
+    </div>
+    <div class="map-legend-item">
+      <span class="legend-dot normal"></span>
+      <div class="map-legend-text">
+        <strong>Halaman Aktif</strong>
+        <small>Hal. {{ halaman.number }}/{{ halaman.paginator.num_pages }} ({{ halaman|length }} marker)</small>
+      </div>
+    </div>
+    <div class="map-legend-item">
+      <span class="legend-dot cluster"></span>
+      <div class="map-legend-text">
+        <strong>Cluster Wilayah Berdekatan</strong>
+        <small>Klik untuk perbesar</small>
+      </div>
+    </div>
+  </div>
+</div>
+{{ peta_wilayah|json_script:"data-peta-peringkat" }}
+{% endif %}
+
+<div class="card scroll">
+  <table>
+    <thead><tr><th>Peringkat</th><th>Kabupaten/Kota</th><th>Provinsi</th><th>Rekomendasi</th><th class="n">Net flow</th><th class="n">TOPSIS (V)</th><th class="n">Peringkat TOPSIS</th><th>Peta</th></tr></thead>
+    <tbody>
+    {% for w in halaman %}
+      <tr>
+        <td><span class="rank">{{ w.peringkat_promethee }}</span></td>
+        <td><a href="{% url 'pemeringkatan:detail' w.kode_bps %}">{{ w.kabkota }}</a></td>
+        <td>{{ w.provinsi }}</td>
+        <td><span class="energi-badge {{ w.rekomendasi.kode|lower }}">{{ w.rekomendasi.ringkas }}</span></td>
+        <td class="n">{{ w.net_flow|floatformat:4 }}</td>
+        <td class="n">{{ w.v_topsis|floatformat:4 }}</td>
+        <td class="n">{{ w.peringkat_topsis }}</td>
+        <td>
+          {% if w.koor %}
+          <button type="button" class="btn" style="padding:5px 12px;font-size:12px;" data-focus-kode="{{ w.kode_bps }}">Lihat Peta</button>
+          {% else %}
+          <span class="muted">-</span>
+          {% endif %}
+        </td>
+      </tr>
+    {% empty %}
+      <tr><td colspan="8">Tidak ada wilayah yang cocok.</td></tr>
+    {% endfor %}
+    </tbody>
+  </table>
+  <div class="pager">
+    {% if halaman.has_previous %}<a class="btn" href="?{% if qs %}{{ qs }}&{% endif %}page={{ halaman.previous_page_number }}">← Sebelumnya</a>{% endif %}
+    <span>Halaman {{ halaman.number }} dari {{ halaman.paginator.num_pages }}</span>
+    {% if halaman.has_next %}<a class="btn" href="?{% if qs %}{{ qs }}&{% endif %}page={{ halaman.next_page_number }}">Berikutnya →</a>{% endif %}
+  </div>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+(function () {
+  var el = document.getElementById('data-peta-peringkat');
+  var box = document.getElementById('peta-peringkat');
+  if (!el || !box || typeof L === 'undefined') return;
+  var items = JSON.parse(el.textContent || '[]').filter(window.SPKMap.isValidCoord);
+  var statusEl = document.getElementById('peta-peringkat-status');
+  var map = L.map(box, { scrollWheelZoom: false }).setView([-2.5, 118.0], 5);
+  window.SPKMap.activeMap = map;
+  window.SPKMap.attachTiles(map, statusEl);
+
+  var cluster = window.SPKMap.createClusterGroup();
+  var markers = {};
+  var bounds = [];
+  items.forEach(function (item) {
+    var m = L.marker([item.lat, item.lng], { icon: window.SPKMap.markerIcon(item.peringkat === 1) });
+    m.bindPopup(window.SPKMap.popupHtml(item, true));
+    cluster.addLayer(m);
+    markers[item.kode] = { marker: m, item: item };
+    bounds.push([item.lat, item.lng]);
+  });
+  map.addLayer(cluster);
+
+  function fitAll() {
+    if (bounds.length) map.fitBounds(bounds, { padding: [32, 32], maxZoom: 10 });
+  }
+  fitAll();
+
+  var btnFit = document.getElementById('btn-fit-peringkat');
+  if (btnFit) btnFit.addEventListener('click', fitAll);
+
+  document.querySelectorAll('[data-focus-kode]').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      var entry = markers[btn.getAttribute('data-focus-kode')];
+      if (!entry) return;
+      box.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      if (typeof cluster.zoomToShowLayer === 'function') {
+        cluster.zoomToShowLayer(entry.marker, function () {
+          map.flyTo([entry.item.lat, entry.item.lng], 11, { duration: 0.9 });
+          entry.marker.openPopup();
+        });
+      } else {
+        map.flyTo([entry.item.lat, entry.item.lng], 11, { duration: 0.9 });
+        entry.marker.openPopup();
+      }
+    });
+  });
+})();
+</script>
+{% endblock %}

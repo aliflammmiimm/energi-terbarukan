@@ -1,0 +1,64 @@
+{% extends "pemeringkatan/base.html" %}
+{% block title %}Simulasi Pemeringkatan{% endblock %}
+{% block content %}
+<h1>Simulasi Pemeringkatan</h1>
+<p class="sub">Atur persentase bobot 10 kriteria sesuai preferensi Anda. Total harus 100%. Sistem menghitung ulang seluruh wilayah dengan PROMETHEE II.</p>
+
+<form method="post" id="form-bobot" class="card">
+  {% csrf_token %}
+  {% for f in form %}
+  <div class="bobot-row">
+    <div>
+      <b>{{ f.kode }} {{ f.nama }}</b><br>
+      <small class="sub">{{ f.aspek }} · <span class="pill {{ f.atribut }}">{{ f.atribut }}</span></small>
+    </div>
+    <input type="range" min="0" max="100" step="0.5" value="{{ f.nilai|stringformat:'.2f' }}" data-slider="{{ f.field }}" aria-label="Slider {{ f.nama }}">
+    <input type="number" name="{{ f.field }}" min="0" max="100" step="0.01" value="{{ f.nilai|stringformat:'.2f' }}" data-bobot required aria-label="Bobot {{ f.nama }} (%)">
+    {% if f.galat %}<div class="err">{{ f.galat }}</div>{% endif %}
+  </div>
+  {% endfor %}
+
+  <div class="total {% if total != 100 %}salah{% endif %}" id="kotak-total">
+    <div>Total bobot: <b id="total">{{ total|stringformat:'.2f' }}</b>%
+      <span id="status" class="sub"></span></div>
+    <button class="btn" type="submit" name="aksi" value="seimbangkan">Seimbangkan Bobot</button>
+  </div>
+
+  <div class="aksi">
+    <button class="btn utama" type="submit" name="aksi" value="jalankan">Jalankan Simulasi</button>
+    <button class="btn" type="submit" name="aksi" value="reset" formnovalidate>Reset Simulasi</button>
+  </div>
+</form>
+
+{% if not ada_hasil %}
+<div class="panel" style="margin-top:8px;margin-bottom:0;width:100%;">
+  <h2 style="margin-bottom:6px;font-size:20px;">Area Hasil Simulasi</h2>
+  <p style="margin:0;max-width:100%;">Belum ada hasil simulasi yang dijalankan. Atur persentase bobot 10 kriteria di atas hingga total <strong>100%</strong>, lalu tekan <strong>Jalankan Simulasi</strong> untuk melihat pemeringkatan berdasarkan prioritas Anda sendiri.</p>
+</div>
+{% endif %}
+
+<script>
+(function () {
+  var angka = document.querySelectorAll('[data-bobot]');
+  var total = document.getElementById('total');
+  var kotak = document.getElementById('kotak-total');
+  var status = document.getElementById('status');
+
+  function hitung() {
+    var s = 0;
+    angka.forEach(function (e) { s += parseFloat(String(e.value).replace(',', '.')) || 0; });
+    s = Math.round(s * 100) / 100;
+    total.textContent = s.toFixed(2);
+    var ok = Math.abs(s - 100) <= 0.01;
+    kotak.classList.toggle('salah', !ok);
+    status.textContent = ok ? '✓ sudah 100%' : (s < 100 ? '(kurang ' + (100 - s).toFixed(2) + '%)' : '(lebih ' + (s - 100).toFixed(2) + '%)');
+  }
+  angka.forEach(function (e) {
+    var slider = document.querySelector('[data-slider="' + e.name + '"]');
+    e.addEventListener('input', function () { if (slider) slider.value = e.value; hitung(); });
+    if (slider) slider.addEventListener('input', function () { e.value = slider.value; hitung(); });
+  });
+  hitung();
+})();
+</script>
+{% endblock %}

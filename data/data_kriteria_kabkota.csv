@@ -1,0 +1,515 @@
+﻿bps_kabkota_code,kabkota_name,prov_name,jenis_wilayah,C01_populasi_2024,C02_ntl_radiance_mean,C03_ipm_2024,C04_dist_to_primary_trunk_km,C05_elevation_std_m,C06_allsky_sfc_sw_dwn_mean,C07_wind_speed_100m_mean_ms,C08_pct_lahan_tersedia,C09_pct_tree_cover,C10_pct_ekosistem_sensitif,info_ppm_2024,info_tertinggal_status
+1107,Aceh Barat,Aceh,Kabupaten,206822,0.4591,73.69,1.3769,352.2239,205.6949,2.0996,4.226,92.143,0.139,17.6,Tidak Tertinggal
+1112,Aceh Barat Daya,Aceh,Kabupaten,159187,0.3857,68.75,8.6561,591.9534,203.1679,1.7613,1.213,94.274,0.042,15.32,Tidak Tertinggal
+1108,Aceh Besar,Aceh,Kabupaten,428254,1.1167,75.13,0.9015,401.8943,207.9892,3.8172,14.142,78.039,0.057,13.21,Tidak Tertinggal
+1116,Aceh Jaya,Aceh,Kabupaten,99200,0.3021,71.83,21.5456,400.2287,206.4597,2.4048,3.471,94.847,0.125,12.25,Tidak Tertinggal
+1103,Aceh Selatan,Aceh,Kabupaten,241994,0.2696,69.1,13.9848,679.4205,208.2865,2.1092,2.318,95.303,0.039,12.02,Tidak Tertinggal
+1102,Aceh Singkil,Aceh,Kabupaten,135684,0.3555,70.75,5.7561,61.5667,204.1955,2.2939,8.374,86.517,1.703,19.06,Tidak Tertinggal
+1114,Aceh Tamiang,Aceh,Kabupaten,309039,0.7097,72.32,8.9072,365.4729,194.158,2.3846,4.405,82.345,6.707,12.17,Tidak Tertinggal
+1106,Aceh Tengah,Aceh,Kabupaten,226744,0.2858,75.41,0.526,473.4109,196.1727,2.8931,6.896,90.8,0.0,14.27,Tidak Tertinggal
+1104,Aceh Tenggara,Aceh,Kabupaten,234430,0.2763,71.7,17.5841,701.9724,202.1504,2.343,2.698,94.9,0.0,11.99,Tidak Tertinggal
+1105,Aceh Timur,Aceh,Kabupaten,443638,0.5655,69.87,31.4741,521.0086,192.9872,2.5191,2.556,88.326,2.241,13.26,Tidak Tertinggal
+1111,Aceh Utara,Aceh,Kabupaten,631984,1.1181,71.7,11.3339,270.8247,198.0148,2.8504,4.49,75.928,0.635,16.11,Tidak Tertinggal
+1307,Agam,Sumatera Barat,Kabupaten,559299,0.6255,74.66,14.8521,509.7487,205.2598,2.8231,4.827,82.039,0.009,6.83,Tidak Tertinggal
+5307,Alor,Nusa Tenggara Timur,Kabupaten,225020,0.3283,63.82,9.8083,341.9331,242.0196,3.0259,18.244,79.943,0.243,19.87,Tidak Tertinggal
+1208,Asahan,Sumatera Utara,Kabupaten,813720,0.8163,72.09,6.0335,308.0999,195.2577,2.7321,4.032,90.197,1.585,8.12,Tidak Tertinggal
+9504,Asmat,Papua Selatan,Kabupaten,118534,0.1872,53.92,73.4089,13.0677,189.5622,3.0387,0.813,84.525,11.261,24.5,Tertinggal
+5103,Badung,Bali,Kabupaten,568547,8.0429,83.87,0.0424,354.2159,229.5627,3.2411,8.024,52.815,1.361,2.23,Tidak Tertinggal
+6311,Balangan,Kalimantan Selatan,Kabupaten,138116,0.7354,71.34,18.2072,257.2989,193.5526,2.5584,5.297,93.028,0.086,4.87,Tidak Tertinggal
+3204,Bandung,Jawa Barat,Kabupaten,3753116,4.0064,74.27,5.488,437.3629,203.9969,2.6634,6.352,63.297,0.0,6.19,Tidak Tertinggal
+3217,Bandung Barat,Jawa Barat,Kabupaten,1884191,2.8461,70.03,6.8977,359.5888,203.9969,2.9464,3.482,75.982,0.0,10.49,Tidak Tertinggal
+7202,Banggai,Sulawesi Tengah,Kabupaten,377603,0.5144,72.32,15.9086,470.6383,210.7916,2.9043,5.492,89.656,0.782,6.56,Tidak Tertinggal
+7201,Banggai Kepulauan,Sulawesi Tengah,Kabupaten,124576,0.2797,67.43,38.8563,256.7106,205.609,2.9634,5.622,92.532,0.783,12.32,Tidak Tertinggal
+7211,Banggai Laut,Sulawesi Tengah,Kabupaten,74019,0.325,67.43,85.0914,101.7113,212.1594,3.4525,1.796,86.024,6.164,13.78,Tidak Tertinggal
+1901,Bangka,Kep. Bangka Belitung,Kabupaten,342058,0.5923,73.98,8.9027,27.349,196.5285,4.0111,12.166,80.836,3.686,4.24,Tidak Tertinggal
+1903,Bangka Barat,Kep. Bangka Belitung,Kabupaten,215818,0.3555,70.67,2.3958,18.3253,194.6011,3.9341,10.532,78.825,8.115,2.59,Tidak Tertinggal
+1905,Bangka Selatan,Kep. Bangka Belitung,Kabupaten,208491,0.3346,68.86,6.8561,24.328,197.4715,3.9149,14.832,79.093,3.356,3.74,Tidak Tertinggal
+1904,Bangka Tengah,Kep. Bangka Belitung,Kabupaten,210482,0.488,71.9,5.6542,47.8439,195.3606,4.0861,18.486,75.379,2.711,5.94,Tidak Tertinggal
+3526,Bangkalan,Jawa Timur,Kabupaten,1102522,3.396,66.27,6.5981,41.6119,219.9378,4.1158,17.381,53.54,1.756,18.66,Tidak Tertinggal
+5106,Bangli,Bali,Kabupaten,262297,1.1304,71.34,1.1507,324.0818,229.5627,2.9295,11.078,76.912,0.002,5.06,Tidak Tertinggal
+6303,Banjar,Kalimantan Selatan,Kabupaten,600639,0.6526,71.87,7.9271,169.7604,196.7164,3.9603,11.188,73.06,3.496,2.36,Tidak Tertinggal
+3304,Banjarnegara,Jawa Tengah,Kabupaten,1057562,1.4619,69.6,3.3669,495.3321,203.4372,2.5737,1.322,82.236,0.0,14.71,Tidak Tertinggal
+7303,Bantaeng,Sulawesi Selatan,Kabupaten,205418,1.2874,71.48,6.2822,550.9063,220.3692,5.2269,7.469,75.067,0.025,8.26,Tidak Tertinggal
+3402,Bantul,DI Yogyakarta,Kabupaten,1017750,5.6633,81.74,0.2156,84.5234,218.0391,3.4552,2.898,57.58,0.012,11.66,Tidak Tertinggal
+1607,Banyu Asin,Sumatera Selatan,Kabupaten,885902,0.5664,69.51,12.3902,8.0398,193.2936,3.9724,18.411,50.894,13.309,9.31,Tidak Tertinggal
+3302,Banyumas,Jawa Tengah,Kabupaten,1847097,2.6044,74.52,4.2754,405.8079,201.2319,3.3425,1.329,70.815,0.021,11.95,Tidak Tertinggal
+3510,Banyuwangi,Jawa Timur,Kabupaten,1754393,4.0532,73.11,0.1602,409.0625,229.5942,3.3298,3.017,75.877,0.876,6.54,Tidak Tertinggal
+6304,Barito Kuala,Kalimantan Selatan,Kabupaten,330990,0.6393,68.84,3.2102,2.5021,201.5373,3.6914,28.48,34.43,6.904,4.36,Tidak Tertinggal
+6204,Barito Selatan,Kalimantan Tengah,Kabupaten,135909,0.2869,72.36,9.3139,93.736,197.1539,2.1494,10.569,82.546,2.786,4.83,Tidak Tertinggal
+6212,Barito Timur,Kalimantan Tengah,Kabupaten,118759,0.3257,73.26,5.4205,67.5076,197.1539,2.0691,6.542,91.057,1.017,6.66,Tidak Tertinggal
+6205,Barito Utara,Kalimantan Tengah,Kabupaten,162622,0.347,72.31,3.2011,87.0922,197.3026,2.2634,1.243,97.958,0.001,5.67,Tidak Tertinggal
+7310,Barru,Sulawesi Selatan,Kabupaten,189214,0.5069,73.06,7.375,273.3197,218.3487,4.2746,8.971,78.551,0.837,8.31,Tidak Tertinggal
+3325,Batang,Jawa Tengah,Kabupaten,838187,3.0728,70.74,4.8826,505.0383,208.1177,2.4485,2.512,77.786,0.318,8.73,Tidak Tertinggal
+1504,Batang Hari,Jambi,Kabupaten,316550,0.406,71.67,2.1574,30.4283,195.3451,3.3951,1.57,95.646,0.153,8.63,Tidak Tertinggal
+1219,Batu Bara,Sumatera Utara,Kabupaten,437360,2.1734,70.83,6.0798,10.9469,192.9577,3.3009,5.153,71.936,2.387,10.94,Tidak Tertinggal
+3216,Bekasi,Jawa Barat,Kabupaten,3273868,13.5393,76.44,3.1877,18.7868,201.623,3.0907,8.322,15.657,1.938,4.8,Tidak Tertinggal
+1902,Belitung,Kep. Bangka Belitung,Kabupaten,191405,0.5271,74.47,9.4794,31.176,200.1918,3.9367,10.002,82.12,4.879,6.11,Tidak Tertinggal
+1906,Belitung Timur,Kep. Bangka Belitung,Kabupaten,132835,0.3819,73.19,1.731,26.3301,201.3556,3.8785,14.621,78.438,3.137,6.36,Tidak Tertinggal
+5306,Belu,Nusa Tenggara Timur,Kabupaten,235709,0.5224,64.43,1.6741,240.849,237.6936,4.7794,59.04,36.536,0.251,13.86,Tidak Tertinggal
+1117,Bener Meriah,Aceh,Kabupaten,172036,0.3311,75.01,20.3723,548.6553,196.1727,2.8608,6.103,92.509,0.0,18.18,Tidak Tertinggal
+1408,Bengkalis,Riau,Kabupaten,591800,0.7997,75.28,20.0612,13.0231,199.769,3.0823,9.095,85.401,3.297,6.36,Tidak Tertinggal
+6102,Bengkayang,Kalimantan Barat,Kabupaten,303422,0.3119,70.3,1.133,227.7088,201.7829,2.963,4.943,94.108,0.029,6.0,Tidak Tertinggal
+1701,Bengkulu Selatan,Bengkulu,Kabupaten,173315,0.345,72.35,7.4316,459.6364,205.2017,2.8896,1.239,92.308,0.004,17.1,Tidak Tertinggal
+1709,Bengkulu Tengah,Bengkulu,Kabupaten,122673,0.4476,69.84,6.1389,239.9248,197.275,2.7481,2.841,95.245,0.035,10.14,Tidak Tertinggal
+1703,Bengkulu Utara,Bengkulu,Kabupaten,310125,0.3124,71.11,5.521,365.6981,202.226,2.8098,1.573,96.443,0.487,10.96,Tidak Tertinggal
+6405,Berau,Kalimantan Timur,Kabupaten,261833,0.3594,76.66,8.0326,267.1036,198.2428,2.6563,2.421,93.684,3.077,5.08,Tidak Tertinggal
+9409,Biak Numfor,Papua,Kabupaten,141103,0.3815,73.98,2.6044,84.7105,199.7311,2.6051,2.474,94.316,1.9,23.46,Tidak Tertinggal
+5206,Bima,Nusa Tenggara Barat,Kabupaten,543459,0.4391,68.94,3.4086,419.1926,235.1193,3.772,31.688,57.457,0.184,13.88,Tidak Tertinggal
+2102,Bintan,Kepulauan Riau,Kabupaten,168190,1.248,76.18,5.4013,26.5195,206.9776,4.061,24.512,61.235,8.357,5.44,Tidak Tertinggal
+1110,Bireuen,Aceh,Kabupaten,459073,1.0298,74.45,10.3061,466.335,201.2449,2.4146,1.91,85.355,0.298,12.1,Tidak Tertinggal
+3505,Blitar,Jawa Timur,Kabupaten,1263645,2.0467,73.09,5.4797,308.87,221.1097,3.8522,2.924,74.431,0.001,8.16,Tidak Tertinggal
+3316,Blora,Jawa Tengah,Kabupaten,907993,1.4817,71.39,10.8012,53.7664,213.0727,4.2866,8.135,54.607,0.001,11.42,Tidak Tertinggal
+7501,Boalemo,Gorontalo,Kabupaten,153274,0.3917,68.74,12.1238,260.1124,220.0102,2.6718,14.218,78.773,0.842,17.83,Tidak Tertinggal
+3201,Bogor,Jawa Barat,Kabupaten,5682303,5.4501,72.39,0.0124,403.9179,197.9373,2.9091,5.346,72.628,0.001,7.05,Tidak Tertinggal
+3522,Bojonegoro,Jawa Timur,Kabupaten,1325299,3.5486,71.78,4.088,81.5968,212.9792,4.1057,9.325,43.572,0.021,11.69,Tidak Tertinggal
+7101,Bolaang Mongondow,Sulawesi Utara,Kabupaten,257266,0.3867,70.29,8.7637,375.8515,217.5155,3.1194,3.007,90.989,0.417,7.74,Tidak Tertinggal
+7110,Bolaang Mongondow Selatan,Sulawesi Utara,Kabupaten,72900,0.3405,67.14,3.8513,420.7137,216.1122,2.9625,1.874,96.513,0.463,11.33,Tidak Tertinggal
+7111,Bolaang Mongondow Timur,Sulawesi Utara,Kabupaten,92219,0.3972,68.53,6.2989,391.6119,215.8165,3.0346,5.225,91.826,0.366,5.87,Tidak Tertinggal
+7107,Bolaang Mongondow Utara,Sulawesi Utara,Kabupaten,87197,0.3607,69.32,12.2866,347.8164,216.4078,2.3723,3.65,92.845,1.063,7.88,Tidak Tertinggal
+7406,Bombana,Sulawesi Tenggara,Kabupaten,160654,0.3572,68.15,5.0182,200.3425,218.526,3.3384,20.024,71.628,2.933,10.54,Tidak Tertinggal
+3511,Bondowoso,Jawa Timur,Kabupaten,792309,1.2703,68.65,1.66,599.6143,229.5164,3.5746,7.508,70.577,0.0,12.6,Tidak Tertinggal
+7311,Bone,Sulawesi Selatan,Kabupaten,830119,0.4387,68.36,8.0606,272.5332,220.0335,4.0155,9.032,63.851,1.558,9.58,Tidak Tertinggal
+7504,Bone Bolango,Gorontalo,Kabupaten,170649,0.5131,72.38,18.3928,335.2531,216.4078,2.9753,2.823,94.825,0.002,14.8,Tidak Tertinggal
+9502,Boven Digoel,Papua Selatan,Kabupaten,69035,0.188,64.26,4.6661,70.4257,190.6201,3.0143,0.955,96.941,1.032,19.24,Tertinggal
+3309,Boyolali,Jawa Tengah,Kabupaten,1099850,3.7194,75.96,4.2282,474.0924,208.8292,4.433,7.238,63.809,0.075,9.63,Tidak Tertinggal
+3329,Brebes,Jawa Tengah,Kabupaten,2065501,2.7541,68.46,6.3109,327.315,205.1881,4.677,4.445,45.962,1.423,15.6,Tidak Tertinggal
+5108,Buleleng,Bali,Kabupaten,814789,1.2182,74.52,0.9979,396.5997,227.4446,3.0205,2.887,86.53,0.35,5.39,Tidak Tertinggal
+7302,Bulukumba,Sulawesi Selatan,Kabupaten,454719,0.745,71.97,3.3999,311.0215,220.3692,3.016,3.746,75.221,0.256,6.71,Tidak Tertinggal
+6502,Bulungan,Kalimantan Utara,Kabupaten,160241,0.3525,73.34,25.9492,310.9904,201.2152,2.3082,2.38,85.421,7.764,8.76,Tidak Tertinggal
+1509,Bungo,Jambi,Kabupaten,381272,0.4566,71.92,19.0835,330.4886,194.407,2.9717,2.424,95.634,0.0,5.06,Tidak Tertinggal
+7207,Buol,Sulawesi Tengah,Kabupaten,152355,0.2861,70.28,18.7815,417.4737,219.9582,2.489,2.024,95.577,0.772,13.08,Tidak Tertinggal
+8104,Buru,Maluku,Kabupaten,142304,0.2806,71.01,25.807,500.9186,212.1252,3.2489,13.662,83.469,0.931,16.08,Tidak Tertinggal
+8109,Buru Selatan,Maluku,Kabupaten,80842,0.2648,67.09,29.4523,378.2125,216.1926,3.0128,10.476,88.963,0.09,14.91,Tidak Tertinggal
+7401,Buton,Sulawesi Tenggara,Kabupaten,122029,0.3205,68.88,9.703,168.4437,219.6177,3.1273,2.211,94.492,2.138,13.99,Tidak Tertinggal
+7415,Buton Selatan,Sulawesi Tenggara,Kabupaten,101194,0.3674,67.0,3.772,131.9605,224.4374,3.8786,11.886,86.287,0.137,14.28,Tidak Tertinggal
+7414,Buton Tengah,Sulawesi Tenggara,Kabupaten,121289,0.3885,66.47,14.5108,71.2983,222.9465,2.8894,10.161,86.68,1.296,14.4,Tidak Tertinggal
+7409,Buton Utara,Sulawesi Tenggara,Kabupaten,69799,0.2869,70.6,1.0969,206.6212,212.8286,3.041,1.385,88.763,9.008,14.09,Tidak Tertinggal
+3207,Ciamis,Jawa Barat,Kabupaten,1259226,1.7438,72.56,4.974,300.649,199.0267,2.9074,0.919,78.971,0.085,7.39,Tidak Tertinggal
+3203,Cianjur,Jawa Barat,Kabupaten,2584994,1.2054,67.24,3.4504,419.0231,203.6111,3.1997,2.695,81.068,0.014,10.14,Tidak Tertinggal
+3301,Cilacap,Jawa Tengah,Kabupaten,2027379,2.4606,72.38,3.4713,204.8911,201.2319,3.4489,1.959,57.11,3.7,10.68,Tidak Tertinggal
+3209,Cirebon,Jawa Barat,Kabupaten,2387961,5.4007,71.44,0.5261,73.6459,203.65,4.0033,5.702,23.327,2.365,11.0,Tidak Tertinggal
+1210,Dairi,Sumatera Utara,Kabupaten,330586,0.3869,73.92,1.1691,455.4934,200.3465,2.8914,14.713,79.237,0.0,7.1,Tidak Tertinggal
+9603,Deiyai,Papua Tengah,Kabupaten,106496,0.1764,52.07,2.7035,626.5312,196.1003,1.9888,5.338,91.595,1.14,39.01,Sangat Tertinggal
+1212,Deli Serdang,Sumatera Utara,Kabupaten,2048480,4.9905,76.92,0.895,348.216,195.7675,2.7839,6.171,69.833,3.34,3.44,Tidak Tertinggal
+3321,Demak,Jawa Tengah,Kabupaten,1252970,4.1522,74.57,0.2874,17.7697,209.5092,4.2074,4.949,11.507,5.498,11.89,Tidak Tertinggal
+1311,Dharmasraya,Sumatera Barat,Kabupaten,244026,0.4122,74.06,12.2176,180.3153,196.6642,2.7704,3.952,93.205,0.0,5.32,Tidak Tertinggal
+9602,Dogiyai,Papua Tengah,Kabupaten,125178,0.177,57.68,31.3162,839.5169,199.6566,2.3352,3.222,95.916,0.736,30.03,Tertinggal
+5205,Dompu,Nusa Tenggara Barat,Kabupaten,250943,0.464,70.78,5.6444,360.7646,232.3081,3.373,31.568,54.344,1.152,11.59,Tidak Tertinggal
+7205,Donggala,Sulawesi Tengah,Kabupaten,310998,0.3399,67.45,7.6079,422.0331,212.2163,2.4553,3.198,93.729,0.384,15.3,Tidak Tertinggal
+1611,Empat Lawang,Sumatera Selatan,Kabupaten,345641,0.2663,67.25,2.1202,412.3151,202.8139,3.1231,3.103,92.726,0.0,10.78,Tidak Tertinggal
+5311,Ende,Nusa Tenggara Timur,Kabupaten,281371,0.362,69.11,0.267,375.0691,237.958,2.7171,6.805,91.087,0.225,22.57,Tidak Tertinggal
+7316,Enrekang,Sulawesi Selatan,Kabupaten,238099,0.3767,74.61,8.9004,685.4591,214.526,3.1825,14.628,81.089,0.002,11.25,Tidak Tertinggal
+9101,Fakfak,Papua Barat,Kabupaten,90171,0.2264,70.39,13.8282,258.2665,206.4231,3.1564,5.198,93.096,0.51,20.86,Tidak Tertinggal
+5309,Flores Timur,Nusa Tenggara Timur,Kabupaten,292523,0.3575,66.29,2.3849,250.3618,242.4776,3.2833,12.663,85.123,0.482,11.25,Tidak Tertinggal
+3205,Garut,Jawa Barat,Kabupaten,2716950,1.2424,68.79,0.5759,487.862,203.8235,3.3927,5.336,77.854,0.009,9.68,Tidak Tertinggal
+1113,Gayo Lues,Aceh,Kabupaten,106791,0.2355,69.83,1.2397,598.6909,200.9371,2.694,5.709,93.417,0.0,18.3,Tidak Tertinggal
+5104,Gianyar,Bali,Kabupaten,527119,4.7138,79.82,0.4459,260.5202,229.5627,2.636,2.902,59.278,0.002,4.0,Tidak Tertinggal
+7502,Gorontalo,Gorontalo,Kabupaten,409509,0.719,69.66,4.7685,281.3518,218.209,3.5998,11.854,75.448,0.406,16.43,Tidak Tertinggal
+7505,Gorontalo Utara,Gorontalo,Kabupaten,132784,0.3643,67.46,2.3292,358.9241,220.8009,3.4479,8.444,85.741,1.663,16.86,Tidak Tertinggal
+7306,Gowa,Sulawesi Selatan,Kabupaten,814041,1.3288,72.26,4.19,525.9167,220.3692,3.5347,9.615,72.214,0.16,6.85,Tidak Tertinggal
+3525,Gresik,Jawa Timur,Kabupaten,1364019,5.9287,78.45,5.8656,65.6529,213.6399,4.0071,5.481,23.886,5.571,10.32,Tidak Tertinggal
+3315,Grobogan,Jawa Tengah,Kabupaten,1506374,2.08,72.02,1.7662,61.6526,211.291,4.0451,7.719,45.745,0.008,11.43,Tidak Tertinggal
+3403,Gunung Kidul,DI Yogyakarta,Kabupaten,752188,1.5756,71.89,1.4629,99.3494,218.0391,4.8622,6.027,81.219,0.0,15.18,Tidak Tertinggal
+6211,Gunung Mas,Kalimantan Tengah,Kabupaten,145534,0.2433,72.73,5.6102,195.6753,200.036,2.2978,3.022,96.239,0.0,5.68,Tidak Tertinggal
+8201,Halmahera Barat,Maluku Utara,Kabupaten,137805,0.3055,67.53,28.9938,206.0176,213.7743,2.8407,1.512,95.73,1.788,8.75,Tidak Tertinggal
+8204,Halmahera Selatan,Maluku Utara,Kabupaten,264926,0.4842,66.66,24.5294,261.7725,213.9764,2.6338,1.525,94.907,2.18,5.63,Tidak Tertinggal
+8202,Halmahera Tengah,Maluku Utara,Kabupaten,61791,0.8592,68.45,0.682,198.8926,216.2367,2.7874,4.553,93.125,1.329,10.71,Tidak Tertinggal
+8206,Halmahera Timur,Maluku Utara,Kabupaten,98224,0.2791,69.58,1.6563,266.3308,213.635,2.6287,3.003,95.211,1.187,11.91,Tidak Tertinggal
+8205,Halmahera Utara,Maluku Utara,Kabupaten,207739,0.348,69.78,11.4831,222.8469,216.4349,2.6199,3.936,93.621,1.033,4.71,Tidak Tertinggal
+6306,Hulu Sungai Selatan,Kalimantan Selatan,Kabupaten,238778,0.5639,71.21,2.1241,231.3923,197.6771,2.8964,27.927,50.025,10.905,3.38,Tidak Tertinggal
+6307,Hulu Sungai Tengah,Kalimantan Selatan,Kabupaten,268754,0.4276,70.69,10.8421,334.0865,193.8728,2.2705,12.056,78.401,1.995,5.81,Tidak Tertinggal
+6308,Hulu Sungai Utara,Kalimantan Selatan,Kabupaten,237111,0.5371,68.28,0.9048,3.5871,197.6771,2.3025,37.138,29.894,17.432,5.75,Tidak Tertinggal
+1215,Humbang Hasundutan,Sumatera Utara,Kabupaten,207076,0.2824,71.59,10.2783,421.654,203.9177,2.7456,14.845,79.747,0.004,8.44,Tidak Tertinggal
+1403,Indragiri Hilir,Riau,Kabupaten,684860,0.3393,68.38,4.2521,40.9288,190.1304,3.5166,9.359,77.25,10.4,5.66,Tidak Tertinggal
+1402,Indragiri Hulu,Riau,Kabupaten,468366,0.4197,71.48,5.8358,75.2428,194.086,3.0084,5.169,93.499,0.08,6.02,Tidak Tertinggal
+3212,Indramayu,Jawa Barat,Kabupaten,1914037,3.1407,69.83,0.2335,21.9815,205.4122,4.1487,5.05,9.204,3.625,11.93,Tidak Tertinggal
+9606,Intan Jaya,Papua Tengah,Kabupaten,143853,0.1468,50.71,17.4808,868.492,204.6276,2.2119,1.313,98.539,0.044,41.42,Sangat Tertinggal
+9403,Jayapura,Papua,Kabupaten,173281,0.2306,74.11,42.0457,195.3281,205.0306,2.6116,1.263,97.582,0.02,11.6,Tidak Tertinggal
+9702,Jayawijaya,Papua Pegunungan,Kabupaten,281090,0.2257,61.03,2.1268,681.5793,194.9521,2.5499,25.213,73.181,0.928,32.28,Tertinggal
+3509,Jember,Jawa Timur,Kabupaten,2603817,2.1207,69.15,0.1232,427.4025,228.4881,3.1278,3.802,70.842,0.084,9.01,Tidak Tertinggal
+5101,Jembrana,Bali,Kabupaten,325633,1.0687,74.6,6.4134,286.3806,225.3265,3.2397,1.222,88.878,0.315,4.51,Tidak Tertinggal
+7304,Jeneponto,Sulawesi Selatan,Kabupaten,418969,1.1109,66.38,7.0402,250.821,219.0685,5.9777,16.52,50.235,0.481,11.82,Tidak Tertinggal
+3320,Jepara,Jawa Tengah,Kabupaten,1232880,3.6198,74.32,2.6168,219.0849,208.4288,3.9882,3.74,66.353,0.962,6.09,Tidak Tertinggal
+3517,Jombang,Jawa Timur,Kabupaten,1362697,3.8006,75.1,0.79,265.0195,212.7922,3.721,2.5,43.496,0.001,8.6,Tidak Tertinggal
+9102,Kaimana,Papua Barat,Kabupaten,66655,0.1981,67.6,73.3005,346.6653,203.5125,3.0878,0.683,91.366,3.322,14.41,Tidak Tertinggal
+1406,Kampar,Riau,Kabupaten,894848,0.6832,74.85,2.9984,142.4533,199.0388,2.5989,2.3,95.431,0.02,6.92,Tidak Tertinggal
+6203,Kapuas,Kalimantan Tengah,Kabupaten,430184,0.2915,71.32,3.7445,78.3964,200.2134,2.5682,13.4,82.698,0.646,5.25,Tidak Tertinggal
+6108,Kapuas Hulu,Kalimantan Barat,Kabupaten,265772,0.2198,68.58,12.4864,329.5497,200.7085,2.0271,1.704,96.16,0.224,7.4,Tidak Tertinggal
+5107,Karangasem,Bali,Kabupaten,502333,1.051,69.74,7.1813,487.5649,229.5627,3.07,9.017,81.258,0.005,6.52,Tidak Tertinggal
+3313,Karanganyar,Jawa Tengah,Kabupaten,961909,4.5231,78.11,0.6442,491.2864,212.5577,3.3618,3.097,64.75,0.0,9.59,Tidak Tertinggal
+3215,Karawang,Jawa Barat,Kabupaten,2554384,5.873,72.9,4.3979,78.5473,203.3058,3.2804,3.249,21.43,0.984,7.86,Tidak Tertinggal
+2101,Karimun,Kepulauan Riau,Kabupaten,263344,1.4695,74.28,14.8903,33.1564,188.085,3.8338,9.83,70.45,14.611,5.78,Tidak Tertinggal
+1211,Karo,Sumatera Utara,Kabupaten,426471,0.7029,76.55,0.9608,413.5018,195.9766,3.7738,14.898,71.404,0.0,7.37,Tidak Tertinggal
+6209,Katingan,Kalimantan Tengah,Kabupaten,171856,0.2474,70.7,25.101,170.6535,202.1927,2.654,6.667,90.692,0.935,5.26,Tidak Tertinggal
+1704,Kaur,Bengkulu,Kabupaten,132659,0.2433,68.98,16.9535,509.7626,196.465,3.0584,3.744,94.249,0.002,17.12,Tidak Tertinggal
+6111,Kayong Utara,Kalimantan Barat,Kabupaten,135087,0.247,65.74,33.7622,125.53,209.362,3.1693,10.341,84.608,3.75,8.84,Tidak Tertinggal
+3305,Kebumen,Jawa Tengah,Kabupaten,1414754,1.5407,71.93,1.2021,113.6654,203.4372,3.2547,1.659,64.15,0.038,15.71,Tidak Tertinggal
+3506,Kediri,Jawa Timur,Kabupaten,1689916,3.1041,74.44,2.2041,290.9242,218.6257,4.6193,2.157,46.507,0.0,9.95,Tidak Tertinggal
+9420,Keerom,Papua,Kabupaten,64179,0.2293,68.68,14.3753,187.0976,206.5977,2.4419,0.937,98.62,0.002,15.84,Tidak Tertinggal
+3324,Kendal,Jawa Tengah,Kabupaten,1064812,2.9862,74.34,4.508,354.6411,207.4852,3.6115,3.038,61.784,1.218,9.35,Tidak Tertinggal
+1708,Kepahiang,Bengkulu,Kabupaten,156353,0.4108,70.27,4.2259,270.1721,197.275,3.7469,1.414,94.542,0.0,12.9,Tidak Tertinggal
+2105,Kepulauan Anambas,Kepulauan Riau,Kabupaten,49728,0.3598,70.93,20.5962,98.9942,214.1054,4.3831,2.221,90.943,1.273,6.67,Tidak Tertinggal
+8105,Kepulauan Aru,Maluku,Kabupaten,109159,0.2205,65.83,47.56,28.5582,197.2194,4.3565,3.223,75.677,19.02,23.39,Tidak Tertinggal
+1301,Kepulauan Mentawai,Sumatera Barat,Kabupaten,92757,0.221,63.99,33.6452,59.4767,203.7925,2.6723,0.65,94.966,3.072,13.89,Tidak Tertinggal
+1410,Kepulauan Meranti,Riau,Kabupaten,213720,0.3819,67.92,1.7018,9.3175,191.1287,3.4114,9.961,78.21,8.266,23.15,Tidak Tertinggal
+7103,Kepulauan Sangihe,Sulawesi Utara,Kabupaten,142846,0.3612,72.71,3.0861,219.4168,219.5277,4.0742,2.111,94.387,0.644,10.84,Tidak Tertinggal
+7301,Kepulauan Selayar,Sulawesi Selatan,Kabupaten,142701,0.324,70.03,26.7225,111.6806,231.3747,4.8988,9.37,85.421,0.637,10.79,Tidak Tertinggal
+3101,Kep. Seribu,DKI Jakarta,Kabupaten,28809,2.116,74.17,34.1422,4.8452,199.9402,3.8254,8.714,54.554,2.817,13.03,Tidak Tertinggal
+8203,Kepulauan Sula,Maluku Utara,Kabupaten,109256,0.2821,65.99,7.1674,172.6581,222.1103,3.0934,0.691,96.738,0.94,7.96,Tidak Tertinggal
+7104,Kepulauan Talaud,Sulawesi Utara,Kabupaten,98297,0.2768,71.77,1.0317,101.2194,219.6873,4.0732,0.724,96.869,0.125,8.17,Tidak Tertinggal
+9408,Kepulauan Yapen,Papua,Kabupaten,118590,0.2508,69.65,13.9699,284.2303,200.9725,2.5755,0.367,96.801,1.637,25.69,Tidak Tertinggal
+1501,Kerinci,Jambi,Kabupaten,256706,0.3158,73.11,5.5863,394.1519,195.2492,3.1431,12.299,80.503,0.0,6.93,Tidak Tertinggal
+6106,Ketapang,Kalimantan Barat,Kabupaten,599890,0.2615,69.42,4.3059,150.017,205.245,3.2668,9.862,88.204,0.666,8.5,Tidak Tertinggal
+3310,Klaten,Jawa Tengah,Kabupaten,1292800,5.8727,78.16,0.3812,224.4896,208.8292,4.0144,3.432,41.348,0.0,12.04,Tidak Tertinggal
+5105,Klungkung,Bali,Kabupaten,209309,1.8391,74.04,12.9972,126.3942,229.5627,3.5445,14.94,71.112,0.618,5.3,Tidak Tertinggal
+7404,Kolaka,Sulawesi Tenggara,Kabupaten,248763,0.4937,75.18,5.3372,484.9351,207.4842,2.9897,11.966,82.6,0.615,11.67,Tidak Tertinggal
+7411,Kolaka Timur,Sulawesi Tenggara,Kabupaten,127549,0.2938,70.27,25.6859,497.2226,207.6098,2.4419,4.941,90.542,0.018,13.71,Tidak Tertinggal
+7408,Kolaka Utara,Sulawesi Tenggara,Kabupaten,148496,0.2547,71.7,9.695,516.6021,203.4066,2.0005,5.419,92.468,0.712,13.51,Tidak Tertinggal
+7403,Konawe,Sulawesi Tenggara,Kabupaten,274071,0.6635,73.39,20.1532,331.5241,204.3035,2.2903,6.476,86.086,0.721,13.25,Tidak Tertinggal
+7412,Konawe Kepulauan,Sulawesi Tenggara,Kabupaten,39688,0.3661,67.99,34.5855,198.0827,209.0599,2.9463,1.314,93.401,3.353,15.54,Tidak Tertinggal
+7405,Konawe Selatan,Sulawesi Tenggara,Kabupaten,329210,0.4336,71.19,12.4209,143.9403,210.6219,2.8623,12.113,78.408,4.15,11.2,Tidak Tertinggal
+7410,Konawe Utara,Sulawesi Tenggara,Kabupaten,73829,0.3754,72.32,6.7516,372.0739,199.8946,2.1132,4.901,92.543,1.443,13.17,Tidak Tertinggal
+8171,Kota Ambon,Maluku,Kota,362639,2.4813,82.56,1.0059,143.3991,202.777,3.7345,3.105,89.387,0.102,5.13,Tidak Tertinggal
+6471,Kota Balikpapan,Kalimantan Timur,Kota,717231,6.1473,82.24,0.2871,22.2831,197.8748,3.4065,8.732,66.401,4.407,2.23,Tidak Tertinggal
+1171,Kota Banda Aceh,Aceh,Kota,265019,23.4569,87.17,0.003,3.6009,207.9892,4.8036,8.993,20.261,1.129,6.95,Tidak Tertinggal
+1871,Kota Bandar Lampung,Lampung,Kota,1214333,21.7379,79.19,0.0001,83.6204,207.0738,3.7992,3.208,43.765,0.001,7.37,Tidak Tertinggal
+3273,Kota Bandung,Jawa Barat,Kota,2528163,28.244,83.52,0.3623,69.923,202.551,2.8707,2.724,12.678,0.0,3.87,Tidak Tertinggal
+3279,Kota Banjar,Jawa Barat,Kota,209791,3.4275,73.64,1.5518,48.62,199.0267,2.5382,0.801,60.517,0.015,5.85,Tidak Tertinggal
+6372,Kota Banjar Baru,Kalimantan Selatan,Kota,273466,5.7147,80.51,0.8696,29.3644,201.5932,3.3888,26.765,51.5,2.257,3.79,Tidak Tertinggal
+6371,Kota Banjarmasin,Kalimantan Selatan,Kota,668762,17.8482,79.05,0.302,2.2963,201.5932,3.455,11.212,22.646,2.052,4.58,Tidak Tertinggal
+6302,Kotabaru,Kalimantan Selatan,Kabupaten,343684,0.3406,70.61,8.2909,199.6308,201.2974,2.9766,5.928,85.47,6.679,4.45,Tidak Tertinggal
+2171,Kota Batam,Kepulauan Riau,Kota,1276928,7.4132,82.86,0.9297,20.5527,193.9001,3.9737,15.822,49.719,18.701,4.85,Tidak Tertinggal
+3579,Kota Batu,Jawa Timur,Kota,222685,4.6706,78.79,0.2565,523.8332,212.7922,2.4624,8.852,72.224,0.0,3.06,Tidak Tertinggal
+7472,Kota Baubau,Sulawesi Tenggara,Kota,168538,1.7547,78.13,1.2163,146.2314,218.3643,3.1006,3.754,87.306,1.025,7.4,Tidak Tertinggal
+3275,Kota Bekasi,Jawa Barat,Kota,2644058,34.0497,83.54,0.2044,16.9908,197.9373,2.8457,2.271,19.124,0.018,4.01,Tidak Tertinggal
+1771,Kota Bengkulu,Bengkulu,Kota,397321,7.0117,82.04,0.0345,12.9482,197.275,3.9156,7.428,58.103,0.509,13.76,Tidak Tertinggal
+5272,Kota Bima,Nusa Tenggara Barat,Kota,163604,1.9185,78.04,3.0985,192.5107,229.0445,3.925,30.509,54.83,0.015,8.12,Tidak Tertinggal
+1276,Kota Binjai,Sumatera Utara,Kota,307170,11.3599,78.1,0.0156,11.6079,195.7675,2.4401,5.564,58.534,0.002,4.75,Tidak Tertinggal
+7172,Kota Bitung,Sulawesi Utara,Kota,234966,2.2901,75.71,3.5033,241.9734,225.8692,4.4072,4.753,87.96,0.037,6.27,Tidak Tertinggal
+3572,Kota Blitar,Jawa Timur,Kota,154867,11.4439,81.27,0.003,27.7417,228.5618,3.6673,1.878,26.65,0.0,6.75,Tidak Tertinggal
+3271,Kota Bogor,Jawa Barat,Kota,1078351,21.5353,78.52,0.0593,85.3786,193.3237,2.8563,3.48,36.349,0.0,6.53,Tidak Tertinggal
+6474,Kota Bontang,Kalimantan Timur,Kota,188289,13.1459,82.42,5.7901,18.5305,199.1505,3.7514,13.115,57.631,16.992,3.74,Tidak Tertinggal
+1375,Kota Bukittinggi,Sumatera Barat,Kota,125015,11.6784,82.51,0.0444,30.4182,196.558,3.2646,5.515,39.259,0.0,4.08,Tidak Tertinggal
+3672,Kota Cilegon,Banten,Kota,455617,22.2912,75.14,1.0804,83.0589,203.8606,3.5305,9.324,48.251,0.266,3.75,Tidak Tertinggal
+3277,Kota Cimahi,Jawa Barat,Kota,598698,20.7358,80.08,0.4698,58.99,202.551,3.1488,1.661,22.229,0.0,4.39,Tidak Tertinggal
+3274,Kota Cirebon,Jawa Barat,Kota,344851,18.445,77.08,0.1371,22.8846,208.2733,4.8262,8.746,27.73,0.529,9.02,Tidak Tertinggal
+5171,Kota Denpasar,Bali,Kota,755568,17.0987,85.22,1.4425,22.312,229.5627,3.2541,7.125,17.159,4.334,2.59,Tidak Tertinggal
+3276,Kota Depok,Jawa Barat,Kota,2163635,24.6557,82.91,0.2957,16.044,193.3237,2.7869,2.998,28.628,0.007,2.34,Tidak Tertinggal
+1473,Kota Dumai,Riau,Kota,333031,2.8943,76.19,1.0582,10.8475,199.4787,3.1228,12.96,82.925,1.469,3.14,Tidak Tertinggal
+7571,Kota Gorontalo,Gorontalo,Kota,207808,10.1732,79.18,0.1478,126.8034,218.209,4.0691,8.644,47.439,0.357,5.74,Tidak Tertinggal
+1278,Kota Gunungsitoli,Sumatera Utara,Kota,145233,0.7353,71.41,0.0691,76.5472,198.4795,2.4386,1.628,94.145,0.203,14.72,Tidak Tertinggal
+3174,Kota Jakarta Barat,DKI Jakarta,Kota,2479571,43.8069,83.64,1.1242,4.5618,193.3237,3.0593,3.68,9.966,0.113,3.94,Tidak Tertinggal
+3173,Kota Jakarta Pusat,DKI Jakarta,Kota,1044297,63.8784,83.01,0.105,5.4595,193.3237,3.0393,1.068,9.926,0.0,4.63,Tidak Tertinggal
+3171,Kota Jakarta Selatan,DKI Jakarta,Kota,2230653,41.0047,86.94,0.1414,15.0213,193.3237,2.804,1.288,17.805,0.003,3.03,Tidak Tertinggal
+3172,Kota Jakarta Timur,DKI Jakarta,Kota,3086010,36.7414,84.65,0.3606,18.6778,193.3237,2.8838,4.868,16.697,0.051,4.09,Tidak Tertinggal
+3175,Kota Jakarta Utara,DKI Jakarta,Kota,1815606,47.61,81.39,0.5827,3.3661,193.3237,3.4215,6.553,9.351,0.598,6.44,Tidak Tertinggal
+1571,Kota Jambi,Jambi,Kota,635101,15.515,81.04,0.4125,13.6729,188.9257,3.6238,4.581,48.905,0.137,7.73,Tidak Tertinggal
+9471,Kota Jayapura,Papua,Kota,420577,1.5916,81.67,2.3189,198.9027,206.8737,2.8505,6.996,86.711,1.27,10.72,Tidak Tertinggal
+3571,Kota Kediri,Jawa Timur,Kota,298227,11.1806,81.35,0.2361,50.4176,214.5392,5.6699,3.329,23.801,0.0,6.51,Tidak Tertinggal
+7471,Kota Kendari,Sulawesi Tenggara,Kota,370764,6.0707,85.33,0.1489,80.4365,205.7579,2.5645,11.739,71.025,1.076,4.23,Tidak Tertinggal
+7174,Kota Kotamobagu,Sulawesi Utara,Kota,129074,2.8272,75.27,1.5412,201.8674,215.8165,2.0797,2.409,73.001,0.0,5.12,Tidak Tertinggal
+5371,Kota Kupang,Nusa Tenggara Timur,Kota,474801,11.3796,81.08,0.7827,110.1098,242.7597,5.9494,37.829,32.84,0.155,8.24,Tidak Tertinggal
+1173,Kota Langsa,Aceh,Kota,197909,2.4011,78.81,0.0719,28.2208,191.8184,3.2291,5.25,39.628,29.644,10.33,Tidak Tertinggal
+1174,Kota Lhokseumawe,Aceh,Kota,200403,20.3694,79.55,2.2113,18.0398,195.3247,3.4798,9.746,61.353,1.595,10.44,Tidak Tertinggal
+1674,Kota Lubuklinggau,Sumatera Selatan,Kota,246046,2.1656,76.82,1.9564,69.1687,197.275,2.3827,1.468,89.691,0.0,11.14,Tidak Tertinggal
+3577,Kota Madiun,Jawa Timur,Kota,201767,20.8714,83.48,0.4373,5.0402,216.2863,3.4184,2.95,15.414,0.0,4.38,Tidak Tertinggal
+3371,Kota Magelang,Jawa Tengah,Kota,122431,13.6453,82.15,0.6162,23.7306,208.8292,2.9108,3.898,30.78,0.0,5.94,Tidak Tertinggal
+7371,Kota Makasar,Sulawesi Selatan,Kota,1464637,22.5699,83.9,1.0589,5.6528,219.0685,2.7475,12.34,15.781,3.977,4.97,Tidak Tertinggal
+3573,Kota Malang,Jawa Timur,Kota,872694,19.3311,84.06,0.0583,48.0258,220.677,2.8544,4.302,28.61,0.0,3.91,Tidak Tertinggal
+7171,Kota Manado,Sulawesi Utara,Kota,460427,8.466,80.63,0.0255,90.2839,220.3222,2.5018,5.216,69.746,1.259,5.43,Tidak Tertinggal
+5271,Kota Mataram,Nusa Tenggara Barat,Kota,445010,18.7503,80.6,0.4479,14.1569,231.7967,4.0736,6.789,20.814,0.015,8.0,Tidak Tertinggal
+1275,Kota Medan,Sumatera Utara,Kota,2486283,34.1152,82.76,0.0036,15.8409,195.7675,2.6684,4.692,19.252,9.111,7.94,Tidak Tertinggal
+1872,Kota Metro,Lampung,Kota,175712,7.7806,78.93,0.1409,7.829,207.0738,3.664,1.14,29.713,0.0,6.78,Tidak Tertinggal
+3576,Kota Mojokerto,Jawa Timur,Kota,137393,21.6788,80.92,1.4604,2.7153,212.7922,2.9258,3.677,19.033,0.033,5.57,Tidak Tertinggal
+1371,Kota Padang,Sumatera Barat,Kota,954177,4.7784,83.99,4.4563,448.9286,202.2966,2.0262,2.679,79.846,0.12,4.06,Tidak Tertinggal
+1374,Kota Padang Panjang,Sumatera Barat,Kota,59453,7.6878,80.17,0.7494,94.0087,196.558,4.0556,2.225,56.769,0.0,5.31,Tidak Tertinggal
+1277,Kota Padangsidimpuan,Sumatera Utara,Kota,240067,3.2102,76.96,0.608,140.8751,203.0305,4.0468,2.767,74.066,0.0,6.23,Tidak Tertinggal
+1673,Kota Pagar Alam,Sumatera Selatan,Kota,149199,0.604,71.19,6.6435,473.9553,200.0212,3.2305,4.241,89.722,0.0,8.18,Tidak Tertinggal
+6271,Kota Palangka Raya,Kalimantan Tengah,Kota,310113,0.7916,82.2,0.7044,16.6595,201.8671,2.6106,15.737,78.579,1.122,3.52,Tidak Tertinggal
+1671,Kota Palembang,Sumatera Selatan,Kota,1718440,16.0815,80.57,0.3261,5.0621,194.6583,3.8001,16.043,33.117,0.222,9.77,Tidak Tertinggal
+7373,Kota Palopo,Sulawesi Selatan,Kota,195666,1.4604,79.94,0.6872,426.6757,210.5408,1.8225,5.519,75.482,3.388,7.35,Tidak Tertinggal
+7271,Kota Palu,Sulawesi Tengah,Kota,392507,5.3414,82.88,2.3734,398.5388,211.413,3.3664,20.107,66.308,0.0,5.94,Tidak Tertinggal
+1971,Kota Pangkal Pinang,Kep. Bangka Belitung,Kota,230441,8.5245,80.4,0.0968,9.4675,195.3422,4.2181,13.369,45.392,6.874,4.04,Tidak Tertinggal
+7372,Kota Parepare,Sulawesi Selatan,Kota,160920,3.9572,79.64,0.2304,140.8417,217.2251,5.8789,10.051,68.617,0.175,5.27,Tidak Tertinggal
+1377,Kota Pariaman,Sumatera Barat,Kota,98336,3.8937,78.88,0.2354,16.1279,196.558,2.6697,5.131,60.7,0.068,4.26,Tidak Tertinggal
+3575,Kota Pasuruan,Jawa Timur,Kota,219392,12.8378,77.75,0.2335,4.801,212.7922,2.864,12.765,11.956,2.734,6.32,Tidak Tertinggal
+1376,Kota Payakumbuh,Sumatera Barat,Kota,146731,5.1441,80.61,0.1072,41.1846,196.558,2.2856,2.985,51.813,0.0,5.19,Tidak Tertinggal
+3375,Kota Pekalongan,Jawa Tengah,Kota,321095,12.8092,77.22,0.1897,3.5126,210.0152,2.5861,5.211,11.504,3.302,6.71,Tidak Tertinggal
+1471,Kota Pekanbaru,Riau,Kota,1026671,8.5903,82.89,1.8452,14.8127,197.8673,3.0195,6.632,73.427,0.021,3.15,Tidak Tertinggal
+1273,Kota Pematang Siantar,Sumatera Utara,Kota,277054,7.0628,81.17,0.7133,61.8699,195.2577,2.6875,6.077,48.595,0.0,7.2,Tidak Tertinggal
+6171,Kota Pontianak,Kalimantan Barat,Kota,680852,22.0751,81.57,0.4605,2.8021,207.3939,3.3149,24.184,29.302,0.0,4.2,Tidak Tertinggal
+1672,Kota Prabumulih,Sumatera Selatan,Kota,203312,3.7401,77.08,0.7854,11.9042,199.0132,3.7867,1.734,93.533,0.0,10.13,Tidak Tertinggal
+3574,Kota Probolinggo,Jawa Timur,Kota,249539,12.8206,76.27,2.2518,13.1667,229.2832,5.946,3.639,24.098,2.08,6.18,Tidak Tertinggal
+1172,Kota Sabang,Aceh,Kota,43470,1.2052,78.32,0.1594,114.7983,207.9892,5.7289,1.424,93.082,0.012,14.58,Tidak Tertinggal
+3373,Kota Salatiga,Jawa Tengah,Kota,201270,10.5335,85.72,0.1097,83.2131,208.8292,2.5651,2.86,56.299,0.0,4.57,Tidak Tertinggal
+6472,Kota Samarinda,Kalimantan Timur,Kota,858079,5.4129,82.81,2.6164,30.521,194.0908,3.5698,21.248,62.783,0.107,4.3,Tidak Tertinggal
+1373,Kota Sawah Lunto,Sumatera Barat,Kota,68725,0.9212,75.13,7.0644,172.2108,196.558,2.797,5.297,89.982,0.0,2.33,Tidak Tertinggal
+3374,Kota Semarang,Jawa Tengah,Kota,1708833,18.805,85.25,0.4403,106.2211,209.5092,3.1657,6.414,43.019,1.151,4.03,Tidak Tertinggal
+3673,Kota Serang,Banten,Kota,734866,9.1382,73.99,0.1379,47.9389,199.9402,2.979,6.207,45.269,1.378,5.65,Tidak Tertinggal
+1271,Kota Sibolga,Sumatera Utara,Kota,91747,10.8443,75.66,0.0072,64.8541,212.9008,1.6898,3.327,60.316,0.255,11.39,Tidak Tertinggal
+6172,Kota Singkawang,Kalimantan Barat,Kota,249998,1.733,73.87,1.8928,77.8222,201.7563,3.5148,9.578,81.632,1.517,4.53,Tidak Tertinggal
+1372,Kota Solok,Sumatera Barat,Kota,79459,4.9078,80.0,0.2531,335.8878,196.558,2.3978,6.723,68.564,0.0,3.07,Tidak Tertinggal
+9271,Kota Sorong,Papua Barat Daya,Kota,298742,1.8201,79.93,2.0485,77.0383,216.7828,3.4354,3.712,84.169,5.634,13.67,Tidak Tertinggal
+1175,Kota Subulussalam,Aceh,Kota,99062,0.4048,68.04,2.5704,155.2115,201.8728,2.0804,5.527,92.686,0.042,16.38,Tidak Tertinggal
+3272,Kota Sukabumi,Jawa Barat,Kota,365735,10.9783,76.85,1.2456,74.4616,193.3237,2.5991,1.554,31.899,0.0,7.2,Tidak Tertinggal
+1572,Kota Sungai Penuh,Jambi,Kota,100847,1.0448,77.4,5.5848,330.7038,197.5072,3.29,13.922,76.405,0.0,2.92,Tidak Tertinggal
+3578,Kota Surabaya,Jawa Timur,Kota,2921996,34.0115,84.14,0.3363,7.2727,212.7922,3.1873,9.389,10.157,5.832,3.96,Tidak Tertinggal
+3372,Kota Surakarta,Jawa Tengah,Kota,528044,33.4075,84.4,0.0947,8.972,208.8292,4.2018,1.146,13.723,0.0,8.31,Tidak Tertinggal
+3671,Kota Tangerang,Banten,Kota,1963966,34.9235,80.02,0.0371,6.0673,193.3237,2.9333,8.669,16.693,0.146,5.43,Tidak Tertinggal
+3674,Kota Tangerang Selatan,Banten,Kota,1399496,30.7381,82.89,0.2544,13.759,193.3237,2.7724,2.777,28.938,0.047,2.36,Tidak Tertinggal
+1272,Kota Tanjung Balai,Sumatera Utara,Kota,185647,6.5055,71.1,0.8208,3.0959,195.2577,3.1116,11.545,65.326,0.006,11.97,Tidak Tertinggal
+2172,Kota Tanjung Pinang,Kepulauan Riau,Kota,237432,7.5269,80.63,0.1068,11.1357,198.1157,3.9486,30.541,37.051,11.246,6.86,Tidak Tertinggal
+6571,Kota Tarakan,Kalimantan Utara,Kota,253916,3.0906,77.96,2.5915,24.1922,204.397,2.84,14.788,67.368,8.227,5.56,Tidak Tertinggal
+3278,Kota Tasikmalaya,Jawa Barat,Kota,750727,9.4676,75.04,0.283,45.6484,199.0267,2.5204,2.857,44.982,0.0,11.1,Tidak Tertinggal
+1274,Kota Tebing Tinggi,Sumatera Utara,Kota,180977,11.7318,77.45,0.1695,6.2182,192.9577,2.8476,4.355,48.387,0.0,8.79,Tidak Tertinggal
+3376,Kota Tegal,Jawa Tengah,Kota,285843,21.7092,77.43,0.2006,3.3444,210.0152,3.8843,7.239,8.4,7.736,7.64,Tidak Tertinggal
+8271,Kota Ternate,Maluku Utara,Kota,214414,2.5388,82.12,13.7052,337.4917,223.8434,3.6621,3.742,83.598,0.702,3.14,Tidak Tertinggal
+8272,Kota Tidore Kepulauan,Maluku Utara,Kota,120439,0.4156,72.91,10.2141,254.0405,214.4528,2.8586,1.279,96.466,1.149,6.56,Tidak Tertinggal
+7173,Kota Tomohon,Sulawesi Utara,Kota,103954,2.2346,78.89,2.5389,201.6902,220.3222,3.5009,11.316,79.048,0.002,5.38,Tidak Tertinggal
+8172,Kota Tual,Maluku,Kota,92744,0.8742,70.21,32.0142,48.9271,211.749,5.0987,6.771,84.61,0.404,20.01,Tidak Tertinggal
+3471,Kota Yogyakarta,DI Yogyakarta,Kota,375779,32.1384,88.77,0.1803,14.6909,208.8292,2.5701,0.623,7.782,0.0,6.26,Tidak Tertinggal
+6201,Kotawaringin Barat,Kalimantan Tengah,Kabupaten,282790,0.365,74.44,0.9304,43.5619,202.8704,3.6158,13.966,82.83,1.193,4.11,Tidak Tertinggal
+6202,Kotawaringin Timur,Kalimantan Tengah,Kabupaten,448184,0.3523,72.66,23.8401,85.6814,204.1736,3.0971,8.957,88.84,0.751,5.66,Tidak Tertinggal
+1401,Kuantan Singingi,Riau,Kabupaten,349251,0.381,72.33,3.6394,102.7509,200.3372,2.9447,3.351,94.814,0.002,7.89,Tidak Tertinggal
+6112,Kubu Raya,Kalimantan Barat,Kabupaten,649866,0.5875,70.25,30.43,14.0147,210.3814,3.2375,15.659,68.405,12.686,4.08,Tidak Tertinggal
+3319,Kudus,Jawa Tengah,Kabupaten,883322,6.5121,77.22,0.4541,231.6168,210.1892,3.791,6.433,39.404,1.644,7.23,Tidak Tertinggal
+3401,Kulon Progo,DI Yogyakarta,Kabupaten,445315,2.1793,76.14,5.2746,201.6446,208.8292,3.1838,3.717,75.41,0.032,15.62,Tidak Tertinggal
+3208,Kuningan,Jawa Barat,Kabupaten,1213927,2.373,71.26,1.5507,372.7663,203.65,4.2335,4.507,72.262,0.004,11.88,Tidak Tertinggal
+5303,Kupang,Nusa Tenggara Timur,Kabupaten,380212,0.4145,66.57,11.6481,245.5248,241.0641,4.638,26.084,70.71,0.565,21.37,Tidak Tertinggal
+6402,Kutai Barat,Kalimantan Timur,Kabupaten,178743,0.2978,74.5,2.9693,98.5984,197.3236,2.59,4.453,92.732,0.396,9.56,Tidak Tertinggal
+6403,Kutai Kartanegara,Kalimantan Timur,Kabupaten,789767,0.6705,75.91,35.0421,336.2869,198.4358,2.912,8.195,83.365,3.908,7.28,Tidak Tertinggal
+6404,Kutai Timur,Kalimantan Timur,Kabupaten,462993,0.4543,75.53,8.129,297.0068,200.2725,2.8813,4.529,93.813,0.988,8.81,Tidak Tertinggal
+1207,Labuhan Batu,Sumatera Utara,Kabupaten,520545,0.5984,74.18,2.5158,40.2647,199.9234,3.125,8.648,84.143,1.037,7.84,Tidak Tertinggal
+1222,Labuhan Batu Selatan,Sumatera Utara,Kabupaten,336577,0.4375,73.67,2.4984,44.4886,200.712,2.9422,4.524,93.82,0.007,7.73,Tidak Tertinggal
+1223,Labuhan Batu Utara,Sumatera Utara,Kabupaten,408749,0.4104,74.4,5.9037,267.2109,199.4277,2.8439,6.965,86.427,0.454,8.98,Tidak Tertinggal
+1604,Lahat,Sumatera Selatan,Kabupaten,450281,0.7248,69.77,8.9979,469.0547,204.6602,3.063,3.918,92.647,0.0,14.14,Tidak Tertinggal
+6207,Lamandau,Kalimantan Tengah,Kabupaten,103676,0.2549,72.25,29.9726,146.1041,202.4184,2.8223,1.22,98.407,0.026,3.25,Tidak Tertinggal
+3524,Lamongan,Jawa Timur,Kabupaten,1378147,2.7179,75.13,4.0471,34.6573,215.5647,4.2634,2.858,23.587,3.102,12.16,Tidak Tertinggal
+1801,Lampung Barat,Lampung,Kabupaten,315923,0.33,69.84,0.6956,289.4254,204.9078,3.413,6.4,88.402,0.0,10.68,Tidak Tertinggal
+1803,Lampung Selatan,Lampung,Kabupaten,1119314,2.6535,70.28,2.3749,112.6631,207.781,3.8823,3.422,68.521,0.727,12.57,Tidak Tertinggal
+1805,Lampung Tengah,Lampung,Kabupaten,1525088,1.235,72.37,3.6019,140.5074,203.1372,3.7133,8.854,54.314,0.333,10.37,Tidak Tertinggal
+1804,Lampung Timur,Lampung,Kabupaten,1153773,1.0853,71.84,3.0566,26.7175,202.6538,3.5891,13.211,61.774,1.147,13.19,Tidak Tertinggal
+1806,Lampung Utara,Lampung,Kabupaten,659887,1.0146,69.62,5.9205,271.5291,201.825,3.2926,2.13,82.267,0.052,16.92,Tidak Tertinggal
+6103,Landak,Kalimantan Barat,Kabupaten,419092,0.2688,69.08,12.7666,190.1112,201.7918,2.8141,3.345,95.368,0.003,8.98,Tidak Tertinggal
+1213,Langkat,Sumatera Utara,Kabupaten,1078676,0.904,72.73,2.3185,501.8654,194.1291,2.3451,3.544,88.208,3.524,9.04,Tidak Tertinggal
+9703,Lanny Jaya,Papua Pegunungan,Kabupaten,208536,0.1619,51.59,16.4384,469.7265,194.2829,2.7458,12.089,84.135,3.706,34.12,Sangat Tertinggal
+3602,Lebak,Banten,Kabupaten,1449205,0.963,65.86,17.2294,306.8728,200.9059,3.5253,2.324,86.837,0.016,8.44,Tidak Tertinggal
+1707,Lebong,Bengkulu,Kabupaten,111750,0.2606,69.27,4.7102,414.3152,197.4727,2.8259,4.172,91.307,0.0,10.45,Tidak Tertinggal
+5308,Lembata,Nusa Tenggara Timur,Kabupaten,143345,0.3871,66.62,1.2489,254.8491,245.2118,3.4378,22.148,73.089,0.795,24.22,Tidak Tertinggal
+1308,Lima Puluh Kota,Sumatera Barat,Kabupaten,401086,0.4294,71.14,16.0191,369.2893,197.7896,2.7352,5.116,90.429,0.0,6.92,Tidak Tertinggal
+2104,Lingga,Kepulauan Riau,Kabupaten,102006,0.2887,68.19,7.6109,106.7336,195.9153,3.5323,5.169,81.653,9.52,9.99,Tidak Tertinggal
+5201,Lombok Barat,Nusa Tenggara Barat,Kabupaten,765049,1.8412,70.67,2.4403,247.4517,230.6797,4.1955,8.078,76.411,0.581,12.65,Tidak Tertinggal
+5202,Lombok Tengah,Nusa Tenggara Barat,Kabupaten,1109800,1.8748,69.17,0.5777,406.2862,231.7967,3.9506,9.127,51.552,0.131,12.07,Tidak Tertinggal
+5203,Lombok Timur,Nusa Tenggara Barat,Kabupaten,1414461,1.4949,69.23,3.8457,635.8773,231.7967,3.2044,14.471,58.338,1.135,14.51,Tidak Tertinggal
+5208,Lombok Utara,Nusa Tenggara Barat,Kabupaten,261557,0.6836,67.24,9.6996,575.2729,231.7967,2.636,9.416,81.008,0.005,23.96,Tidak Tertinggal
+3508,Lumajang,Jawa Timur,Kabupaten,1145849,1.3952,68.8,0.0447,591.5562,225.373,2.7749,5.583,72.876,0.078,8.65,Tidak Tertinggal
+7317,Luwu,Sulawesi Selatan,Kabupaten,384280,0.3147,72.79,8.4508,600.3956,208.9766,2.2557,8.519,74.144,1.509,11.7,Tidak Tertinggal
+7325,Luwu Timur,Sulawesi Selatan,Kabupaten,312731,0.8894,74.95,3.2182,504.9402,200.2253,2.0414,6.226,74.997,1.598,6.55,Tidak Tertinggal
+7322,Luwu Utara,Sulawesi Selatan,Kabupaten,337655,0.245,72.07,22.774,723.8268,206.9116,2.2588,6.135,88.127,1.244,11.24,Tidak Tertinggal
+3519,Madiun,Jawa Timur,Kabupaten,757839,2.2275,73.74,8.3339,261.9685,216.2863,3.0854,4.409,56.01,0.01,10.63,Tidak Tertinggal
+3308,Magelang,Jawa Tengah,Kabupaten,1341447,2.4138,71.99,1.7854,409.6066,208.8292,2.8028,4.303,72.226,0.0,10.83,Tidak Tertinggal
+3520,Magetan,Jawa Timur,Kabupaten,685500,2.5776,75.87,2.188,496.9109,216.2863,4.5822,3.004,46.976,0.0,9.32,Tidak Tertinggal
+6411,Mahakam Ulu,Kalimantan Timur,Kabupaten,34246,0.2002,70.35,117.6813,370.1283,199.9333,2.0313,0.405,99.254,0.0,10.75,Tidak Tertinggal
+3210,Majalengka,Jawa Barat,Kabupaten,1352541,2.4108,69.74,1.6774,437.3789,203.65,3.7872,6.944,44.669,0.04,10.82,Tidak Tertinggal
+7601,Majene,Sulawesi Barat,Kabupaten,183869,0.3384,69.42,9.7744,341.6768,213.5403,3.2887,12.709,85.011,0.086,13.64,Tidak Tertinggal
+5321,Malaka,Nusa Tenggara Timur,Kabupaten,193510,0.4573,62.73,3.6691,173.1005,234.9637,3.7858,30.864,59.817,4.227,13.92,Tidak Tertinggal
+3507,Malang,Jawa Timur,Kabupaten,2735993,2.3074,72.68,2.679,474.1798,220.677,3.4195,3.836,80.126,0.029,8.98,Tidak Tertinggal
+6501,Malinau,Kalimantan Utara,Kabupaten,86523,0.229,73.9,112.6361,361.8534,203.2892,2.2192,0.274,99.526,0.0,6.94,Tidak Tertinggal
+8108,Maluku Barat Daya,Maluku,Kabupaten,87197,0.309,64.86,25.8804,288.2773,234.5669,5.0108,14.815,84.084,0.067,27.95,Tidak Tertinggal
+8103,Maluku Tengah,Maluku,Kabupaten,440848,0.2722,73.21,14.8931,452.4303,207.7402,2.8185,4.399,93.585,1.004,17.67,Tidak Tertinggal
+8102,Maluku Tenggara,Maluku,Kabupaten,126245,0.3138,68.24,16.1175,157.565,209.7872,5.3093,3.575,92.227,1.131,21.22,Tidak Tertinggal
+8101,Maluku Tenggara Barat / Kepulauan Tanimbar,Maluku,Kabupaten,130487,0.2555,64.83,18.3833,46.387,225.2062,4.8336,5.792,84.761,8.316,23.66,Tidak Tertinggal
+7603,Mamasa,Sulawesi Barat,Kabupaten,172923,0.2155,68.37,4.5278,545.4551,207.4124,2.4935,12.983,85.306,0.0,14.2,Tidak Tertinggal
+9428,Mamberamo Raya,Papua,Kabupaten,39388,0.1775,55.0,79.316,210.826,203.8194,2.572,0.921,91.235,4.828,30.29,Tertinggal
+9705,Mamberamo Tengah,Papua Pegunungan,Kabupaten,53631,0.1797,50.72,25.0586,791.1721,205.2931,2.2039,2.375,96.024,0.122,35.27,Sangat Tertinggal
+7604,Mamuju,Sulawesi Barat,Kabupaten,297141,0.2672,70.4,20.5422,656.4245,206.0265,1.853,6.343,90.188,0.495,7.15,Tidak Tertinggal
+7606,Mamuju Tengah,Sulawesi Barat,Kabupaten,145120,0.2659,68.36,18.9641,630.8854,206.0512,1.861,4.815,92.356,0.949,7.72,Tidak Tertinggal
+7605,Mamuju Utara / Pasangkayu,Sulawesi Barat,Kabupaten,202860,0.3059,69.73,16.883,462.7979,211.2812,2.0444,4.846,91.332,1.831,5.21,Tidak Tertinggal
+1202,Mandailing Natal,Sumatera Utara,Kabupaten,505360,0.275,69.33,8.939,497.986,205.5202,2.4497,2.497,95.109,0.202,8.69,Tidak Tertinggal
+5313,Manggarai,Nusa Tenggara Timur,Kabupaten,334464,0.4131,67.28,2.3187,420.5674,233.4478,2.9314,7.629,88.494,0.08,19.01,Tidak Tertinggal
+5315,Manggarai Barat,Nusa Tenggara Timur,Kabupaten,276284,0.3622,66.65,1.2742,272.8058,237.0947,3.5793,17.066,78.895,0.885,16.74,Tidak Tertinggal
+5319,Manggarai Timur,Nusa Tenggara Timur,Kabupaten,296174,0.3082,64.2,15.4591,415.982,233.4478,2.7072,8.731,89.488,0.087,24.9,Tidak Tertinggal
+9105,Manokwari,Papua Barat,Kabupaten,204955,0.4799,73.83,1.3292,475.9452,200.9138,2.3231,3.135,94.096,0.027,18.45,Tidak Tertinggal
+9111,Manokwari Selatan,Papua Barat,Kabupaten,38820,0.2187,62.45,12.0622,597.1966,198.8926,2.448,2.177,96.675,0.228,26.83,Tertinggal
+9503,Mappi,Papua Selatan,Kabupaten,115102,0.199,61.51,89.5533,14.1557,191.4969,3.6008,3.311,81.283,12.589,25.7,Tertinggal
+7308,Maros,Sulawesi Selatan,Kabupaten,413594,1.2612,72.11,3.2268,359.6081,218.7086,3.7424,8.114,69.268,1.561,9.32,Tidak Tertinggal
+9204,Maybrat,Papua Barat Daya,Kabupaten,47542,0.2165,61.83,2.3059,153.7719,207.607,2.3528,3.059,96.204,0.283,29.18,Tertinggal
+6110,Melawi,Kalimantan Barat,Kabupaten,243250,0.2284,68.66,30.519,213.5925,199.9108,2.7123,4.515,94.943,0.0,10.62,Tidak Tertinggal
+6104,Mempawah,Kalimantan Barat,Kabupaten,316728,0.7455,68.56,0.5695,39.3448,207.1212,3.394,10.404,85.227,1.1,4.83,Tidak Tertinggal
+1502,Merangin,Jambi,Kabupaten,373409,0.3102,71.66,4.5767,518.3059,195.9892,2.7578,4.45,94.367,0.0,8.4,Tidak Tertinggal
+9501,Merauke,Papua Selatan,Kabupaten,239404,0.2376,72.73,4.6981,14.7018,201.1925,4.7093,9.37,67.32,21.773,10.19,Tidak Tertinggal
+1811,Mesuji,Lampung,Kabupaten,241600,0.6332,66.46,5.6683,13.0285,191.7947,3.9429,11.082,69.774,0.348,6.31,Tidak Tertinggal
+9601,Mimika,Papua Tengah,Kabupaten,327777,0.2616,76.85,7.9209,757.2218,196.7544,2.4686,2.805,78.941,15.036,14.18,Tidak Tertinggal
+7102,Minahasa,Sulawesi Utara,Kabupaten,353539,0.8681,77.74,1.637,317.6293,223.0957,3.6576,9.214,82.778,0.31,6.53,Tidak Tertinggal
+7105,Minahasa Selatan,Sulawesi Utara,Kabupaten,241261,0.4222,74.17,1.9265,310.8547,218.0693,2.3987,3.669,92.058,0.721,8.97,Tidak Tertinggal
+7109,Minahasa Tenggara,Sulawesi Utara,Kabupaten,120438,0.5961,72.66,7.7489,257.2285,218.0693,3.3054,3.328,93.127,0.864,11.72,Tidak Tertinggal
+7106,Minahasa Utara,Sulawesi Utara,Kabupaten,233471,1.3301,75.89,5.5998,234.7707,223.0957,3.3535,7.018,84.239,4.912,6.95,Tidak Tertinggal
+3516,Mojokerto,Jawa Timur,Kabupaten,1154257,7.1245,75.98,5.7286,488.5108,212.7922,2.7646,5.138,46.808,0.005,9.37,Tidak Tertinggal
+7203,Morowali,Sulawesi Tengah,Kabupaten,173313,1.2838,73.54,10.1835,322.399,203.8637,2.1293,4.518,92.254,0.991,11.55,Tidak Tertinggal
+7212,Morowali Utara,Sulawesi Tengah,Kabupaten,127865,0.305,70.58,19.6521,549.8676,201.6369,2.3146,8.285,89.278,1.118,11.95,Tidak Tertinggal
+1603,Muara Enim,Sumatera Selatan,Kabupaten,640962,1.0292,71.0,19.2461,521.5252,199.6852,3.4926,5.085,91.145,0.195,9.79,Tidak Tertinggal
+1505,Muaro Jambi,Jambi,Kabupaten,424579,0.8806,71.91,9.9758,16.6085,193.4787,3.6335,11.766,85.066,0.15,3.65,Tidak Tertinggal
+1706,Mukomuko,Bengkulu,Kabupaten,201700,0.295,70.63,11.1977,324.6605,207.4043,2.7243,1.351,97.002,0.034,10.76,Tidak Tertinggal
+7402,Muna,Sulawesi Tenggara,Kabupaten,227984,0.3577,71.05,8.2822,109.785,213.1126,2.9819,6.127,86.5,5.604,13.78,Tidak Tertinggal
+7413,Muna Barat,Sulawesi Tenggara,Kabupaten,90956,0.3557,68.06,2.0676,47.6424,207.8608,2.9896,12.319,73.64,11.565,13.38,Tidak Tertinggal
+6213,Murung Raya,Kalimantan Tengah,Kabupaten,118443,0.2352,70.03,75.1614,298.9573,198.5899,2.046,0.604,99.036,0.0,6.58,Tidak Tertinggal
+1606,Musi Banyuasin,Sumatera Selatan,Kabupaten,651950,0.5643,70.12,12.0017,21.1034,195.555,3.5037,5.931,91.091,0.174,12.88,Tidak Tertinggal
+1605,Musi Rawas,Sumatera Selatan,Kabupaten,411787,0.4935,68.95,3.6008,279.3589,199.3711,2.7634,1.909,95.153,0.001,13.44,Tidak Tertinggal
+1613,Musi Rawas Utara,Sumatera Selatan,Kabupaten,198413,0.3282,67.4,13.3924,433.5809,197.969,2.6306,2.347,96.605,0.01,17.38,Tidak Tertinggal
+9604,Nabire,Papua Tengah,Kabupaten,175358,0.1949,71.77,6.7272,558.6908,204.0458,2.0896,1.162,95.489,2.374,24.0,Tidak Tertinggal
+1115,Nagan Raya,Aceh,Kabupaten,176429,0.3598,71.72,10.9989,626.1815,206.1382,2.1592,3.231,94.089,0.034,16.94,Tidak Tertinggal
+5318,Nagekeo,Nusa Tenggara Timur,Kabupaten,168355,0.3509,67.72,5.8088,265.1051,236.1727,3.1938,25.94,69.415,0.778,12.3,Tidak Tertinggal
+2103,Natuna,Kepulauan Riau,Kabupaten,85664,0.355,74.56,7.4576,66.2366,206.9414,3.7159,11.442,83.441,2.888,5.04,Tidak Tertinggal
+9701,Nduga,Papua Pegunungan,Kabupaten,113344,0.1613,36.3,25.7715,1028.0907,184.839,1.9334,2.996,96.496,0.026,36.28,Sangat Tertinggal
+5312,Ngada,Nusa Tenggara Timur,Kabupaten,174088,0.3159,69.52,13.2664,357.1917,234.8102,3.2231,22.335,75.005,0.14,11.87,Tidak Tertinggal
+3518,Nganjuk,Jawa Timur,Kabupaten,1131777,2.4068,74.23,0.4831,345.0222,214.5392,4.7746,5.653,45.977,0.008,10.17,Tidak Tertinggal
+3521,Ngawi,Jawa Timur,Kabupaten,884086,2.0266,73.09,3.3639,303.1116,216.2863,4.237,3.386,52.076,0.006,13.81,Tidak Tertinggal
+1201,Nias,Sumatera Utara,Kabupaten,155629,0.2758,65.55,2.1068,110.7598,197.7171,2.3984,2.82,93.724,0.507,14.89,Tidak Tertinggal
+1225,Nias Barat,Sumatera Utara,Kabupaten,97251,0.2902,64.67,0.6697,93.2036,197.7171,2.3786,2.875,93.314,1.358,22.68,Tidak Tertinggal
+1214,Nias Selatan,Sumatera Utara,Kabupaten,389957,0.2451,65.02,39.8651,147.7224,200.5086,2.5345,1.826,90.671,5.449,16.32,Tidak Tertinggal
+1224,Nias Utara,Sumatera Utara,Kabupaten,158676,0.2655,65.62,7.2475,54.7118,198.4795,2.322,3.456,94.393,0.706,21.5,Tertinggal
+6504,Nunukan,Kalimantan Utara,Kabupaten,210937,0.3128,68.52,23.6216,497.8332,204.7659,2.2694,1.338,89.608,7.18,5.73,Tidak Tertinggal
+1610,Ogan Ilir,Sumatera Selatan,Kabupaten,436141,1.1213,69.4,8.916,11.7284,199.0132,3.9024,16.594,66.236,1.319,12.3,Tidak Tertinggal
+1602,Ogan Komering Ilir,Sumatera Selatan,Kabupaten,807085,0.43,69.33,51.7866,10.4264,196.8945,3.8976,22.458,60.296,3.078,12.08,Tidak Tertinggal
+1601,Ogan Komering Ulu,Sumatera Selatan,Kabupaten,383039,0.4678,71.55,0.4403,286.1668,200.5213,3.0201,3.803,94.665,0.0,10.68,Tidak Tertinggal
+1608,Ogan Komering Ulu Selatan,Sumatera Selatan,Kabupaten,429535,0.2859,67.65,36.3277,395.1856,199.7473,2.986,7.393,90.37,0.0,9.86,Tidak Tertinggal
+1609,Ogan Komering Ulu Timur,Sumatera Selatan,Kabupaten,674184,0.8186,71.55,19.7532,32.5191,201.0214,3.6348,4.92,72.973,0.035,9.75,Tidak Tertinggal
+3501,Pacitan,Jawa Timur,Kabupaten,588569,0.8944,70.74,0.5557,260.4332,223.4446,4.2066,4.321,89.878,0.001,13.08,Tidak Tertinggal
+1221,Padang Lawas,Sumatera Utara,Kabupaten,280764,0.313,71.27,8.3494,342.7619,200.4125,2.719,5.321,92.909,0.001,7.87,Tidak Tertinggal
+1220,Padang Lawas Utara,Sumatera Utara,Kabupaten,280595,0.2952,72.32,1.3327,244.8071,200.6662,3.4655,6.464,92.1,0.0,8.97,Tidak Tertinggal
+1306,Padang Pariaman,Sumatera Barat,Kabupaten,459169,0.9672,73.1,5.5503,305.7022,205.2598,2.1745,4.176,85.144,0.02,6.27,Tidak Tertinggal
+1216,Pakpak Bharat,Sumatera Utara,Kabupaten,56212,0.2638,70.36,10.3559,358.5381,194.9347,1.9826,5.851,93.092,0.0,6.87,Tidak Tertinggal
+3528,Pamekasan,Jawa Timur,Kabupaten,884697,4.8532,68.49,1.6994,79.5515,224.3109,3.9902,21.266,43.306,0.935,13.41,Tidak Tertinggal
+3601,Pandeglang,Banten,Kabupaten,1325952,0.922,66.99,5.1347,170.3104,203.5596,4.5321,2.318,78.801,0.623,9.18,Tidak Tertinggal
+3218,Pangandaran,Jawa Barat,Kabupaten,434104,0.91,69.85,5.6693,170.6378,199.0267,3.445,1.211,83.994,0.524,8.75,Tidak Tertinggal
+7309,Pangkajene dan Kepulauan,Sulawesi Selatan,Kabupaten,359163,0.837,71.22,9.8098,193.5233,226.8542,3.6886,7.603,53.909,7.634,12.41,Tidak Tertinggal
+9605,Paniai,Papua Tengah,Kabupaten,236534,0.156,58.69,0.8946,881.1103,197.5963,2.4503,8.753,85.434,2.307,37.07,Sangat Tertinggal
+7208,Parigi Moutong,Sulawesi Tengah,Kabupaten,459781,0.346,67.49,38.3754,468.15,212.5801,2.2081,6.127,85.996,1.11,14.2,Tidak Tertinggal
+1309,Pasaman,Sumatera Barat,Kabupaten,318080,0.2702,68.89,2.7655,392.4563,197.9223,2.7285,4.005,92.545,0.0,6.74,Tidak Tertinggal
+1312,Pasaman Barat,Sumatera Barat,Kabupaten,456467,0.3413,70.93,2.3597,365.4598,201.9321,2.1506,5.022,91.623,0.364,7.0,Tidak Tertinggal
+6401,Paser,Kalimantan Timur,Kabupaten,286991,0.3829,74.7,4.1546,160.8304,195.3274,2.7515,4.124,86.864,5.905,8.63,Tidak Tertinggal
+3514,Pasuruan,Jawa Timur,Kabupaten,1657216,3.8198,70.73,4.075,636.6617,221.0377,2.6221,10.215,54.833,1.309,8.63,Tidak Tertinggal
+3318,Pati,Jawa Tengah,Kabupaten,1370821,3.1965,74.1,0.3598,162.3732,209.6258,4.205,5.463,41.202,1.903,9.17,Tidak Tertinggal
+9112,Pegunungan Arfak,Papua Barat,Kabupaten,41470,0.1756,58.73,30.7989,488.6236,200.9138,2.5587,3.41,95.037,0.115,31.76,Tertinggal
+9708,Pegunungan Bintang,Papua Pegunungan,Kabupaten,83333,0.1697,49.36,34.8846,956.4532,194.3297,2.0674,1.95,97.635,0.007,28.95,Sangat Tertinggal
+3326,Pekalongan,Jawa Tengah,Kabupaten,1019006,2.557,71.84,2.8291,439.7605,206.7262,2.6386,2.503,70.527,0.701,8.95,Tidak Tertinggal
+1404,Pelalawan,Riau,Kabupaten,414943,0.4739,74.08,3.8885,27.0018,192.9768,3.0818,6.913,89.176,0.249,8.49,Tidak Tertinggal
+3327,Pemalang,Jawa Tengah,Kabupaten,1541685,2.2575,68.55,1.2711,441.0975,206.7262,3.8292,3.745,57.643,0.568,14.92,Tidak Tertinggal
+6409,Penajam Paser Utara,Kalimantan Timur,Kabupaten,267686,0.5127,73.9,2.7927,111.6698,194.6532,3.0241,3.737,85.952,5.31,6.69,Tidak Tertinggal
+1612,Penukal Abab Lematang Ilir,Sumatera Selatan,Kabupaten,205384,0.9756,67.48,15.5825,20.3522,201.2952,3.4049,4.383,92.994,0.316,9.82,Tidak Tertinggal
+1809,Pesawaran,Lampung,Kabupaten,500298,1.3605,68.52,8.9816,257.8557,207.5941,3.6973,0.927,82.633,0.607,11.86,Tidak Tertinggal
+1813,Pesisir Barat,Lampung,Kabupaten,172316,0.2883,66.73,10.9915,287.514,205.5338,3.5929,1.013,96.038,0.117,12.64,Tidak Tertinggal
+1302,Pesisir Selatan,Sumatera Barat,Kabupaten,532913,0.3353,72.02,7.7006,571.0497,200.9412,2.3065,1.703,94.62,0.122,7.49,Tidak Tertinggal
+1109,Pidie,Aceh,Kabupaten,452547,0.5594,72.31,8.895,574.2243,205.942,2.729,3.503,86.251,0.08,18.59,Tidak Tertinggal
+1118,Pidie Jaya,Aceh,Kabupaten,166467,0.6881,75.16,12.671,628.8283,201.2449,2.7352,3.469,84.558,0.127,18.28,Tidak Tertinggal
+7315,Pinrang,Sulawesi Selatan,Kabupaten,424646,0.5006,73.55,6.9164,468.584,217.2251,4.5238,8.656,53.463,1.874,8.55,Tidak Tertinggal
+7503,Pohuwato,Gorontalo,Kabupaten,153770,0.3511,68.02,12.044,363.8945,220.1878,2.6039,3.638,91.09,1.889,17.11,Tidak Tertinggal
+7602,Polewali Mandar,Sulawesi Barat,Kabupaten,501319,0.3688,66.22,10.9895,296.6176,218.7506,2.7519,7.888,80.276,0.477,15.66,Tidak Tertinggal
+3502,Ponorogo,Jawa Timur,Kabupaten,962941,1.6878,73.01,2.1139,387.2705,221.5424,4.4697,4.638,65.336,0.0,9.11,Tidak Tertinggal
+7204,Poso,Sulawesi Tengah,Kabupaten,254060,0.2744,72.87,7.823,559.7451,207.772,2.6232,7.821,84.788,0.148,14.23,Tidak Tertinggal
+1810,Pringsewu,Lampung,Kabupaten,424679,1.9457,72.29,3.7837,107.0033,207.5941,3.5515,1.669,65.89,0.001,8.32,Tidak Tertinggal
+3513,Probolinggo,Jawa Timur,Kabupaten,1185242,2.156,68.29,4.9447,682.3786,224.31,3.3178,6.251,67.551,0.399,16.45,Tidak Tertinggal
+6210,Pulang Pisau,Kalimantan Tengah,Kabupaten,139508,0.2698,70.27,29.4807,12.4265,202.8979,3.3152,27.362,67.833,1.888,4.56,Tidak Tertinggal
+8207,Pulau Morotai,Maluku Utara,Kabupaten,79660,0.2796,65.68,18.6258,225.5475,214.5893,2.8169,1.488,96.825,0.852,5.11,Tidak Tertinggal
+8208,Pulau Taliabu,Maluku Utara,Kabupaten,61368,0.273,62.9,128.3972,334.7132,216.1566,2.8014,3.064,93.819,2.049,7.13,Tidak Tertinggal
+9607,Puncak,Papua Tengah,Kabupaten,122592,0.1571,45.6,34.173,1263.4792,198.0644,2.0402,3.996,94.731,0.317,37.49,Sangat Tertinggal
+9608,Puncak Jaya,Papua Tengah,Kabupaten,235124,0.174,51.78,28.7263,1064.7929,203.7268,1.9067,2.329,96.891,0.033,35.94,Sangat Tertinggal
+3303,Purbalingga,Jawa Tengah,Kabupaten,1037637,1.96,70.69,4.7046,397.8956,203.4372,2.4821,1.067,74.14,0.001,14.18,Tidak Tertinggal
+3214,Purwakarta,Jawa Barat,Kabupaten,1050344,3.2108,72.65,0.2682,303.9254,202.551,2.95,2.905,68.028,0.348,8.41,Tidak Tertinggal
+3306,Purworejo,Jawa Tengah,Kabupaten,795033,1.3647,75.11,1.1709,208.0411,206.1332,2.9423,1.208,69.987,0.09,10.87,Tidak Tertinggal
+9201,Raja Ampat,Papua Barat Daya,Kabupaten,70061,0.2225,65.86,57.6371,149.8618,213.0088,3.1306,0.729,86.435,2.839,15.83,Tidak Tertinggal
+1702,Rejang Lebong,Bengkulu,Kabupaten,288832,0.4736,72.92,2.6761,414.7308,197.275,3.0131,2.331,93.571,0.0,14.65,Tidak Tertinggal
+3317,Rembang,Jawa Tengah,Kabupaten,665237,2.2231,72.53,3.3515,100.4855,209.8592,4.6176,9.414,51.149,0.124,14.02,Tidak Tertinggal
+1409,Rokan Hilir,Riau,Kabupaten,673323,0.4625,71.2,9.6676,12.7301,199.5157,3.0333,16.126,79.718,1.605,7.01,Tidak Tertinggal
+1407,Rokan Hulu,Riau,Kabupaten,593486,0.4188,71.82,8.9908,112.7616,200.2158,2.526,2.876,95.87,0.01,9.62,Tidak Tertinggal
+5314,Rote Ndao,Nusa Tenggara Timur,Kabupaten,152950,0.39,64.59,5.017,76.9503,246.7102,5.8158,30.191,61.661,1.724,25.78,Tidak Tertinggal
+5320,Sabu Raijua,Nusa Tenggara Timur,Kabupaten,94787,0.4729,59.58,3.8636,63.3957,250.3249,5.5957,58.764,38.185,0.01,28.13,Tertinggal
+6101,Sambas,Kalimantan Barat,Kabupaten,654912,0.3706,69.31,5.0836,101.0672,202.0062,3.1208,10.393,81.182,2.501,6.53,Tidak Tertinggal
+1217,Samosir,Sumatera Utara,Kabupaten,143071,0.3229,72.88,0.2085,321.5018,194.9347,3.2495,32.696,57.281,0.001,11.63,Tidak Tertinggal
+3527,Sampang,Jawa Timur,Kabupaten,1016254,3.7511,64.65,1.9364,51.0517,224.3109,4.3497,19.471,46.713,1.488,20.83,Tidak Tertinggal
+6105,Sanggau,Kalimantan Barat,Kabupaten,510412,0.2659,68.43,5.0253,95.8928,204.023,2.7146,2.391,96.016,0.024,4.67,Tidak Tertinggal
+9419,Sarmi,Papua,Kabupaten,43092,0.1837,66.72,47.3981,315.064,202.7336,2.6601,0.562,98.256,0.332,14.05,Tidak Tertinggal
+1503,Sarolangun,Jambi,Kabupaten,306514,0.4241,72.01,0.2397,221.3185,195.3451,2.9725,3.263,95.466,0.002,8.36,Tidak Tertinggal
+6109,Sekadau,Kalimantan Barat,Kabupaten,222510,0.2324,67.25,0.0875,191.3006,201.948,2.6243,1.928,96.899,0.001,5.66,Tidak Tertinggal
+1705,Seluma,Bengkulu,Kabupaten,217507,0.3046,68.97,7.4796,397.7176,205.6067,3.4025,2.213,95.046,0.032,17.23,Tidak Tertinggal
+3322,Semarang,Jawa Tengah,Kabupaten,1089767,3.4002,75.67,0.6526,350.3436,208.8292,3.6215,7.558,67.307,0.0,6.96,Tidak Tertinggal
+8106,Seram Bagian Barat,Maluku,Kabupaten,226044,0.2708,68.39,11.0768,292.6311,213.6237,3.6228,2.393,96.053,0.766,22.31,Tidak Tertinggal
+8107,Seram Bagian Timur,Maluku,Kabupaten,147139,0.2663,66.24,20.714,196.8292,204.2137,3.3559,2.137,95.401,1.823,21.03,Tidak Tertinggal
+3604,Serang,Banten,Kabupaten,1701803,4.3157,69.03,1.4875,157.913,203.8606,3.3714,5.545,52.097,0.956,4.51,Tidak Tertinggal
+1218,Serdang Bedagai,Sumatera Utara,Kabupaten,691638,1.749,72.47,2.5055,87.5492,194.3626,2.8807,4.492,73.865,0.444,6.97,Tidak Tertinggal
+6208,Seruyan,Kalimantan Tengah,Kabupaten,174314,0.2612,69.05,11.9512,123.7995,201.841,3.2809,14.892,82.093,1.375,7.08,Tidak Tertinggal
+1405,Siak,Riau,Kabupaten,483754,0.8273,75.45,18.9572,15.1925,196.6294,3.0478,6.466,90.552,0.177,5.08,Tidak Tertinggal
+7108,Siau Tagulandang Biaro,Sulawesi Utara,Kabupaten,73922,0.5683,70.31,98.2723,303.6483,228.9795,4.4903,7.413,84.869,1.649,8.32,Tidak Tertinggal
+7314,Sidenreng Rappang,Sulawesi Selatan,Kabupaten,330742,0.5545,73.21,1.1723,516.041,215.8002,4.5921,7.911,60.066,0.475,5.02,Tidak Tertinggal
+3515,Sidoarjo,Jawa Timur,Kabupaten,2171480,12.4874,82.31,0.3344,5.6633,212.7922,3.0834,7.792,9.571,10.042,4.53,Tidak Tertinggal
+7210,Sigi,Sulawesi Tengah,Kabupaten,269963,0.3836,70.51,29.9169,492.3174,208.4683,2.4363,6.386,90.887,0.001,12.06,Tidak Tertinggal
+1304,Sijunjung,Sumatera Barat,Kabupaten,246775,0.3597,70.23,9.2889,213.3212,198.4476,2.8214,1.056,96.337,0.0,5.78,Tidak Tertinggal
+5310,Sikka,Nusa Tenggara Timur,Kabupaten,340327,0.4116,67.41,3.3288,310.415,237.958,3.2706,8.796,88.706,0.384,11.89,Tidak Tertinggal
+1209,Simalungun,Sumatera Utara,Kabupaten,1051845,0.6852,74.97,0.2054,464.1821,195.3044,2.7811,9.481,79.81,0.0,7.72,Tidak Tertinggal
+1101,Simeulue,Aceh,Kabupaten,98633,0.2874,69.01,3.0705,71.6758,198.1107,2.3555,3.271,92.867,0.875,17.69,Tidak Tertinggal
+7307,Sinjai,Sulawesi Selatan,Kabupaten,270434,0.5138,69.52,3.3498,470.1845,220.3692,2.516,3.325,83.628,0.382,7.82,Tidak Tertinggal
+6107,Sintang,Kalimantan Barat,Kabupaten,443684,0.228,69.42,25.2404,272.3398,199.7222,2.4207,2.222,97.118,0.006,8.03,Tidak Tertinggal
+3512,Situbondo,Jawa Timur,Kabupaten,700719,1.5369,69.75,6.7711,384.7487,230.9422,3.7439,6.149,66.836,0.28,11.51,Tidak Tertinggal
+3404,Sleman,DI Yogyakarta,Kabupaten,1168471,7.631,85.61,0.1348,285.5719,208.8292,2.7887,3.758,53.743,0.0,7.46,Tidak Tertinggal
+1303,Solok,Sumatera Barat,Kabupaten,410426,0.3978,71.02,12.4509,451.6932,199.4804,2.8524,5.822,86.291,0.0,7.31,Tidak Tertinggal
+1310,Solok Selatan,Sumatera Barat,Kabupaten,195034,0.2885,71.5,15.8062,488.1635,200.5132,2.0927,2.093,95.398,0.0,6.56,Tidak Tertinggal
+7312,Soppeng,Sulawesi Selatan,Kabupaten,239355,0.4777,71.39,0.4972,299.266,219.6977,4.7018,5.146,72.374,0.889,6.9,Tidak Tertinggal
+9202,Sorong,Papua Barat Daya,Kabupaten,123136,0.3188,68.29,0.199,153.6466,211.7117,2.844,1.566,87.312,7.119,25.71,Tidak Tertinggal
+9203,Sorong Selatan,Papua Barat Daya,Kabupaten,56292,0.2178,64.5,46.3503,72.3477,211.2452,2.6052,1.706,81.05,13.765,17.83,Tidak Tertinggal
+3314,Sragen,Jawa Tengah,Kabupaten,1004761,3.9355,75.53,2.8731,48.2111,212.5577,4.2604,1.466,43.742,0.054,12.41,Tidak Tertinggal
+3213,Subang,Jawa Barat,Kabupaten,1663156,2.7043,71.36,2.7744,322.172,202.551,3.1739,2.839,40.341,2.585,9.49,Tidak Tertinggal
+3202,Sukabumi,Jawa Barat,Kabupaten,2828024,1.1284,68.97,9.7052,341.3491,203.6111,4.1679,5.651,81.461,0.017,6.87,Tidak Tertinggal
+6206,Sukamara,Kalimantan Tengah,Kabupaten,67806,0.2814,69.85,11.6147,27.4623,201.1749,4.0781,33.73,63.676,1.439,4.14,Tidak Tertinggal
+3311,Sukoharjo,Jawa Tengah,Kabupaten,941650,7.1799,79.3,0.0947,46.0358,208.8292,4.2854,3.631,34.359,0.0,7.47,Tidak Tertinggal
+5301,Sumba Barat,Nusa Tenggara Timur,Kabupaten,155013,0.4558,66.06,2.1065,178.3003,237.5487,4.0229,25.553,69.207,0.117,26.52,Tidak Tertinggal
+5317,Sumba Barat Daya,Nusa Tenggara Timur,Kabupaten,328771,0.3887,64.27,6.2342,180.7718,242.3771,4.36,20.983,77.159,0.068,27.2,Tertinggal
+5316,Sumba Tengah,Nusa Tenggara Timur,Kabupaten,92354,0.31,64.31,7.9995,185.2633,237.5487,4.6238,46.232,51.917,0.118,30.84,Tertinggal
+5302,Sumba Timur,Nusa Tenggara Timur,Kabupaten,259261,0.3139,67.68,22.5531,227.4667,241.8572,4.8141,58.345,39.635,0.38,27.04,Tidak Tertinggal
+5204,Sumbawa,Nusa Tenggara Barat,Kabupaten,536597,0.4307,70.55,12.6154,289.2971,235.209,3.5976,14.974,69.929,0.979,12.87,Tidak Tertinggal
+5207,Sumbawa Barat,Nusa Tenggara Barat,Kabupaten,155535,1.0113,73.86,10.5511,229.3633,238.652,3.7924,5.046,86.335,0.332,12.23,Tidak Tertinggal
+3211,Sumedang,Jawa Barat,Kabupaten,1187133,1.9102,73.73,1.5879,373.7799,203.2837,3.3255,6.92,70.852,0.001,9.1,Tidak Tertinggal
+3529,Sumenep,Jawa Timur,Kabupaten,1153188,1.7324,69.26,37.9834,66.1789,224.0321,4.5879,20.702,50.721,6.694,17.78,Tidak Tertinggal
+9427,Supiori,Papua,Kabupaten,24527,0.1949,65.15,19.1139,214.9198,202.997,2.4448,0.396,91.961,5.743,37.72,Tertinggal
+6309,Tabalong,Kalimantan Selatan,Kabupaten,266885,0.8207,74.41,9.9717,169.7965,193.5526,2.2572,3.571,93.616,0.257,5.64,Tidak Tertinggal
+5102,Tabanan,Bali,Kabupaten,467667,1.4045,78.42,7.9641,414.8379,227.4446,3.5211,3.048,76.504,0.004,4.4,Tidak Tertinggal
+7305,Takalar,Sulawesi Selatan,Kabupaten,317017,1.0545,69.47,2.9498,94.798,219.0685,4.4885,13.091,38.75,4.257,7.75,Tidak Tertinggal
+9205,Tambrauw,Papua Barat Daya,Kabupaten,31354,0.1978,56.32,7.1938,500.028,207.3805,2.3888,1.013,98.167,0.001,29.88,Tertinggal
+6503,Tana Tidung,Kalimantan Utara,Kabupaten,28161,0.3554,70.08,19.6762,47.6036,204.7745,2.4676,1.881,70.618,17.822,4.47,Tidak Tertinggal
+7318,Tana Toraja,Sulawesi Selatan,Kabupaten,292422,0.3058,71.67,1.7702,514.59,209.2584,3.2152,19.819,76.407,0.0,10.79,Tidak Tertinggal
+6310,Tanah Bumbu,Kalimantan Selatan,Kabupaten,342363,0.819,72.95,23.521,147.8961,197.7462,3.081,6.879,87.689,1.517,3.41,Tidak Tertinggal
+1305,Tanah Datar,Sumatera Barat,Kabupaten,388228,0.6896,74.9,0.1655,416.4102,196.558,3.6409,2.837,83.806,0.0,4.28,Tidak Tertinggal
+6301,Tanah Laut,Kalimantan Selatan,Kabupaten,364982,0.7009,71.43,12.1937,120.0468,202.1916,4.07,13.428,76.052,2.26,3.74,Tidak Tertinggal
+3603,Tangerang,Banten,Kabupaten,3400486,12.9783,74.09,3.258,15.9597,193.3237,3.1234,10.293,27.555,1.565,6.55,Tidak Tertinggal
+1802,Tanggamus,Lampung,Kabupaten,670367,0.5723,68.52,3.8517,336.2507,207.5941,3.7084,1.888,91.22,0.158,10.28,Tidak Tertinggal
+1507,Tanjung Jabung Barat,Jambi,Kabupaten,335069,0.9654,69.93,8.0432,69.2468,191.3368,3.303,4.249,91.867,0.817,9.54,Tidak Tertinggal
+1506,Tanjung Jabung Timur,Jambi,Kabupaten,238975,0.4848,67.54,17.0794,10.2981,190.2754,3.7285,15.049,78.381,2.515,10.14,Tidak Tertinggal
+1203,Tapanuli Selatan,Sumatera Utara,Kabupaten,316486,0.4101,72.14,5.6877,410.311,202.9192,3.1632,2.958,94.1,0.054,6.92,Tidak Tertinggal
+1204,Tapanuli Tengah,Sumatera Utara,Kabupaten,394910,0.403,71.52,3.6688,255.9503,203.622,2.0059,3.668,91.526,0.908,11.8,Tidak Tertinggal
+1205,Tapanuli Utara,Sumatera Utara,Kabupaten,326993,0.3367,75.23,6.3001,278.3685,202.1059,2.9778,11.763,81.715,0.0,8.21,Tidak Tertinggal
+6305,Tapin,Kalimantan Selatan,Kabupaten,198870,0.9564,72.51,7.8408,96.4876,197.9077,3.5817,22.137,62.679,4.246,3.33,Tidak Tertinggal
+3206,Tasikmalaya,Jawa Barat,Kabupaten,1920921,1.2838,68.36,4.5285,314.5273,202.2347,3.4239,2.398,84.769,0.017,10.23,Tidak Tertinggal
+1508,Tebo,Jambi,Kabupaten,355262,0.3691,71.32,17.1186,70.1428,195.4,3.1961,2.928,95.096,0.068,6.12,Tidak Tertinggal
+3328,Tegal,Jawa Tengah,Kabupaten,1674803,4.4537,70.77,1.4776,460.6914,204.1597,2.9831,6.55,46.994,0.192,6.81,Tidak Tertinggal
+9104,Teluk Bintuni,Papua Barat,Kabupaten,91064,0.3175,66.75,4.8059,318.7991,203.4741,2.3915,1.197,83.237,11.964,26.99,Tertinggal
+9103,Teluk Wondama,Papua Barat,Kabupaten,45561,0.2095,62.36,2.1397,289.1838,198.1332,2.6094,0.715,97.305,0.756,28.47,Tertinggal
+3323,Temanggung,Jawa Tengah,Kabupaten,814879,1.721,71.87,2.1932,424.877,206.1332,3.688,4.187,69.589,0.0,8.67,Tidak Tertinggal
+5304,Timor Tengah Selatan,Nusa Tenggara Timur,Kabupaten,481281,0.3828,64.36,2.2386,346.8105,237.4428,4.496,28.559,69.748,0.053,24.68,Tidak Tertinggal
+5305,Timor Tengah Utara,Nusa Tenggara Timur,Kabupaten,275439,0.378,65.83,5.6483,279.6113,230.3088,4.8537,33.87,63.069,0.083,20.89,Tidak Tertinggal
+1206,Toba Samosir / Toba,Sumatera Utara,Kabupaten,216720,0.3826,76.91,5.7356,365.9633,196.2462,2.8228,12.446,77.733,0.0,8.07,Tidak Tertinggal
+7209,Tojo Una-Una,Sulawesi Tengah,Kabupaten,170815,0.2605,66.97,19.4273,560.6854,208.1846,2.4735,9.269,88.313,1.14,16.36,Tidak Tertinggal
+7206,Toli-Toli,Sulawesi Tengah,Kabupaten,233898,0.326,68.37,8.1127,448.0407,218.7238,2.1777,4.37,91.524,0.949,12.45,Tidak Tertinggal
+9704,Tolikara,Papua Pegunungan,Kabupaten,246375,0.1611,52.05,20.2406,930.9272,203.571,2.0364,2.948,96.914,0.017,31.22,Sangat Tertinggal
+7326,Toraja Utara,Sulawesi Selatan,Kabupaten,277791,0.3479,71.85,3.5297,548.9942,208.9766,2.6332,9.708,83.226,0.002,10.73,Tidak Tertinggal
+3503,Trenggalek,Jawa Timur,Kabupaten,744516,1.1704,72.24,4.7265,263.3946,221.5424,3.7714,2.041,86.471,0.003,10.5,Tidak Tertinggal
+3523,Tuban,Jawa Timur,Kabupaten,1225205,3.0235,71.23,11.7617,85.7173,214.3187,4.3586,9.424,40.305,0.911,14.36,Tidak Tertinggal
+1812,Tulang Bawang Barat,Lampung,Kabupaten,298696,0.9413,68.46,2.5317,13.1984,198.6803,3.8018,6.055,76.356,0.311,7.22,Tidak Tertinggal
+1808,Tulangbawang,Lampung,Kabupaten,450336,0.8051,70.66,9.6242,11.5897,194.331,3.9176,14.87,49.087,4.906,7.88,Tidak Tertinggal
+3504,Tulungagung,Jawa Timur,Kabupaten,1113847,2.6364,75.09,4.5238,280.7412,223.8822,3.4171,3.575,65.539,0.004,6.28,Tidak Tertinggal
+7313,Wajo,Sulawesi Selatan,Kabupaten,389052,0.4798,71.52,1.3108,40.9785,217.1119,4.4388,8.818,33.97,6.092,6.47,Tidak Tertinggal
+7407,Wakatobi,Sulawesi Tenggara,Kabupaten,118259,0.4759,72.02,35.4395,57.8034,225.8178,4.1254,23.142,67.743,2.686,14.36,Tidak Tertinggal
+9426,Waropen,Papua,Kabupaten,35814,0.1795,66.92,98.4409,329.3817,204.7935,2.4894,0.527,96.147,2.873,29.85,Tertinggal
+1807,Way Kanan,Lampung,Kabupaten,497260,0.5921,69.31,8.851,190.7151,198.6803,3.2875,3.293,88.307,0.005,10.43,Tidak Tertinggal
+3312,Wonogiri,Jawa Tengah,Kabupaten,1054145,1.6271,72.55,2.3339,231.0394,219.7907,4.3344,5.774,70.544,0.494,10.71,Tidak Tertinggal
+3307,Wonosobo,Jawa Tengah,Kabupaten,920506,1.4507,69.82,1.5994,482.926,206.1332,2.3635,2.384,82.645,0.0,15.28,Tidak Tertinggal
+9707,Yahukimo,Papua Pegunungan,Kabupaten,372397,0.1544,51.98,18.9625,1168.0161,194.1748,2.0867,6.876,92.592,0.019,33.82,Sangat Tertinggal
+9706,Yalimo,Papua Pegunungan,Kabupaten,108340,0.1675,51.85,1.2076,886.8882,198.4054,1.8081,2.135,96.679,0.027,30.02,Sangat Tertinggal

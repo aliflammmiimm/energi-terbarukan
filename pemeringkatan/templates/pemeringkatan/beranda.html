@@ -1,0 +1,160 @@
+{% extends "pemeringkatan/base.html" %}
+{% block title %}Beranda{% endblock %}
+{% block content %}
+<h1>Pemeringkatan Kabupaten/Kota</h1>
+<p class="sub">Sistem pendukung keputusan pemilihan wilayah berdasarkan 10 kriteria (sosial ekonomi, sumber daya, lingkungan) dengan pembobotan AHP dan pemeringkatan PROMETHEE II.</p>
+
+{% if not total %}
+  <div class="msg error">Data wilayah belum diimpor. Jalankan <code>python manage.py impor_data data/data_kriteria_kabkota.csv</code>.</div>
+{% else %}
+<div class="grid g4" style="margin-bottom:22px">
+  <div class="card stat" style="margin:0"><b>{{ total }}</b><span>Kabupaten/Kota</span></div>
+  <div class="card stat" style="margin:0"><b>{{ jumlah_provinsi }}</b><span>Provinsi</span></div>
+  <div class="card stat" style="margin:0"><b>10</b><span>Kriteria penilaian</span></div>
+  <div class="card stat" style="margin:0"><b>{{ rata_ipm|floatformat:1 }}</b><span>Rata-rata IPM 2024</span></div>
+</div>
+
+<div class="map-panel" style="margin-bottom:0;">
+  <div class="map-toolbar">
+    <div>
+      <h2 style="margin-bottom:4px;">Peta Persebaran Wilayah Potensial</h2>
+      <p class="sub" style="margin:0;">Klik marker atau cari nama kabupaten/kota untuk melihat peringkat, skor kelayakan, dan rekomendasi energi PLTS/PLTB.</p>
+    </div>
+    <div class="aksi">
+      <input type="search" id="cari-peta-beranda" list="daftar-wilayah-peta" placeholder="Cari kabupaten/kota..." style="width:210px;padding:8px 12px;font-size:13.5px;" aria-label="Cari wilayah di peta">
+      <datalist id="daftar-wilayah-peta"></datalist>
+      <div class="map-btn-row">
+        <button type="button" class="btn" id="btn-geojson-beranda">Batas Wilayah</button>
+        <button type="button" class="btn utama" id="btn-reset-peta-beranda">Reset Peta</button>
+      </div>
+    </div>
+  </div>
+  <div id="peta-beranda-loading" style="padding:10px 14px;margin-bottom:10px;border-radius:10px;background:rgba(168,188,168,0.28);color:var(--dark-green);font-size:13.5px;font-weight:600;">
+    Memuat data 514 kabupaten/kota Indonesia dari database...
+  </div>
+  <div id="peta-beranda" class="leaflet-map-box" role="region" aria-label="Peta interaktif wilayah potensial energi terbarukan"></div>
+  <div id="peta-beranda-status" class="map-tile-status" role="alert"></div>
+  <div id="peta-beranda-selected" class="map-selected-strip" aria-live="polite"></div>
+  <div class="map-legend" aria-label="Legenda peta">
+    <span class="map-legend-item"><span class="legend-dot normal" style="background:#304B3B;border-color:#DF7848;"></span>Peringkat #1 Terbaik</span>
+    <span class="map-legend-item"><span class="legend-dot normal" style="background:#304B3B;"></span>Seluruh Wilayah Penelitian (514 Kab/Kota)</span>
+    <span class="map-legend-item"><span class="legend-dot cluster"></span>Cluster Wilayah Berdekatan (klik untuk perbesar)</span>
+  </div>
+</div>
+{% endif %}
+{% endblock %}
+
+{% block extra_js %}
+<script>
+(function () {
+  var box = document.getElementById('peta-beranda');
+  if (!box || typeof L === 'undefined') return;
+  var loadingEl = document.getElementById('peta-beranda-loading');
+  var statusEl = document.getElementById('peta-beranda-status');
+  var selectedEl = document.getElementById('peta-beranda-selected');
+  var searchInput = document.getElementById('cari-peta-beranda');
+  var datalistEl = document.getElementById('daftar-wilayah-peta');
+
+  var map = L.map(box, { scrollWheelZoom: false }).setView([-2.4, 118.0], 5);
+  window.SPKMap.activeMap = map;
+  window.SPKMap.attachTiles(map, statusEl);
+
+  var cluster = window.SPKMap.createClusterGroup();
+  map.addLayer(cluster);
+
+  var markerByName = {};
+  fetch("{% url 'pemeringkatan:api_wilayah_peta' %}")
+    .then(function (resp) {
+      if (!resp.ok) throw new Error('HTTP ' + resp.status);
+      return resp.json();
+    })
+    .then(function (payload) {
+      if (loadingEl) loadingEl.style.display = 'none';
+      var items = (payload.wilayah || []).filter(window.SPKMap.isValidCoord);
+      items.forEach(function (item) {
+        var m = L.marker([item.lat, item.lng], { icon: window.SPKMap.markerIcon(item.peringkat === 1) });
+        m.bindPopup(window.SPKMap.popupHtml(item, true));
+        m.on('click', function () {
+          window.SPKMap.renderSelectedStrip(selectedEl, item);
+        });
+        cluster.addLayer(m);
+        var label = item.kabkota + ' — ' + item.provinsi;
+        markerByName[item.kabkota.toLowerCase()] = { marker: m, item: item };
+        markerByName[label.toLowerCase()] = { marker: m, item: item };
+        if (datalistEl) {
+          var opt = document.createElement('option');
+          opt.value = label;
+          datalistEl.appendChild(opt);
+        }
+      });
+    })
+    .catch(function (err) {
+      if (loadingEl) loadingEl.style.display = 'none';
+      if (statusEl) {
+        statusEl.textContent = 'Gagal memuat data marker wilayah dari server (' + err.message + '). Peta dasar tetap tersedia.';
+        statusEl.classList.add('show');
+      }
+    });
+
+  if (searchInput) {
+    searchInput.addEventListener('change', function () {
+      var q = searchInput.value.trim().toLowerCase();
+      var hit = markerByName[q];
+      if (!hit) {
+        var key = Object.keys(markerByName).find(function (k) { return k.indexOf(q) !== -1; });
+        if (key) hit = markerByName[key];
+      }
+      if (!hit) return;
+      if (typeof cluster.zoomToShowLayer === 'function') {
+        cluster.zoomToShowLayer(hit.marker, function () {
+          map.flyTo([hit.item.lat, hit.item.lng], 11, { duration: 0.9 });
+          hit.marker.openPopup();
+          window.SPKMap.renderSelectedStrip(selectedEl, hit.item);
+        });
+      } else {
+        map.flyTo([hit.item.lat, hit.item.lng], 11, { duration: 0.9 });
+        hit.marker.openPopup();
+        window.SPKMap.renderSelectedStrip(selectedEl, hit.item);
+      }
+    });
+  }
+
+  var geoLayer = null;
+  var btnGeo = document.getElementById('btn-geojson-beranda');
+  if (btnGeo) {
+    btnGeo.addEventListener('click', function () {
+      if (geoLayer) {
+        if (map.hasLayer(geoLayer)) map.removeLayer(geoLayer);
+        else geoLayer.addTo(map);
+        return;
+      }
+      btnGeo.textContent = 'Memuat Batas...';
+      fetch('https://raw.githubusercontent.com/superpikar/indonesia-geojson/master/indonesia-province-simple.json')
+        .then(function (r) { return r.json(); })
+        .then(function (geo) {
+          geoLayer = L.geoJSON(geo, {
+            style: { color: '#426650', weight: 1.5, fillColor: '#A8BCA8', fillOpacity: 0.16 }
+          }).addTo(map);
+          btnGeo.textContent = 'Sembunyikan Batas';
+        })
+        .catch(function () {
+          btnGeo.textContent = 'Batas Wilayah';
+          if (statusEl) {
+            statusEl.textContent = 'Lapisan batas GeoJSON tidak dapat dimuat saat ini.';
+            statusEl.classList.add('show');
+          }
+        });
+    });
+  }
+
+  var btnReset = document.getElementById('btn-reset-peta-beranda');
+  if (btnReset) {
+    btnReset.addEventListener('click', function () {
+      map.setView([-2.4, 118.0], 5);
+      if (selectedEl) selectedEl.classList.remove('show');
+      if (searchInput) searchInput.value = '';
+    });
+  }
+})();
+</script>
+{% endblock %}

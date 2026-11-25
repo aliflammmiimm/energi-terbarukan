@@ -1,0 +1,69 @@
+{
+  "sumber": "kodeprogram1.ipynb (Sel 13)",
+  "evaluasi": [
+    {
+      "no": 0,
+      "dimensi": "Stabilitas OAT: MARS",
+      "ahp_topsis": 10.62829,
+      "ahp_promethee": 5.28374,
+      "arah": "min",
+      "kriteria": "Lebih kecil lebih baik"
+    },
+    {
+      "no": 1,
+      "dimensi": "Stabilitas OAT: T10 (%)",
+      "ahp_topsis": 91.9,
+      "ahp_promethee": 95.6,
+      "arah": "max",
+      "kriteria": "Lebih besar lebih baik"
+    },
+    {
+      "no": 2,
+      "dimensi": "Stabilitas Monte Carlo: MARS",
+      "ahp_topsis": 39.57883,
+      "ahp_promethee": 17.3076,
+      "arah": "min",
+      "kriteria": "Lebih kecil lebih baik"
+    },
+    {
+      "no": 3,
+      "dimensi": "Stabilitas Monte Carlo: T10 (%)",
+      "ahp_topsis": 70.11,
+      "ahp_promethee": 82.52,
+      "arah": "max",
+      "kriteria": "Lebih besar lebih baik"
+    },
+    {
+      "no": 4,
+      "dimensi": "SD skor ternormalisasi",
+      "ahp_topsis": 0.1381,
+      "ahp_promethee": 0.1711,
+      "arah": "spread",
+      "kriteria": "Lebih besar = penyebaran skor lebih besar"
+    },
+    {
+      "no": 5,
+      "dimensi": "Rank reversal leave-one-out (RR)",
+      "ahp_topsis": 0.00045,
+      "ahp_promethee": 0.00023,
+      "arah": "min",
+      "kriteria": "Lebih kecil lebih baik"
+    },
+    {
+      "no": 6,
+      "dimensi": "Rank reversal hapus acak (RR)",
+      "ahp_topsis": 0.00452,
+      "ahp_promethee": 0.00204,
+      "arah": "min",
+      "kriteria": "Lebih kecil lebih baik"
+    },
+    {
+      "no": 7,
+      "dimensi": "Waktu komputasi (detik)",
+      "ahp_topsis": 0.0002,
+      "ahp_promethee": 0.03033,
+      "arah": "min",
+      "kriteria": "Lebih kecil lebih efisien"
+    }
+  ]
+}

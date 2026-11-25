@@ -1,0 +1,90 @@
+{% extends "pemeringkatan/base.html" %}
+{% block title %}Evaluasi Metode{% endblock %}
+{% block content %}
+<h1 style="margin-bottom:20px;">Evaluasi Perbandingan Metode (Dimensi 0–7)</h1>
+
+{% if not baris %}
+  <div class="msg error">Data evaluasi 0–7 belum tersedia.</div>
+{% else %}
+<div class="grid g4" style="margin-bottom:22px">
+  <div class="card stat" style="margin:0"><b>{{ ringkasan.total_dimensi }}</b><span>Dimensi Evaluasi (0–7)</span></div>
+  <div class="card stat" style="margin:0"><b>{{ ringkasan.unggul_promethee }}</b><span>Keunggulan AHP-PROMETHEE II</span></div>
+  <div class="card stat" style="margin:0"><b>{{ ringkasan.unggul_topsis }}</b><span>Keunggulan AHP-TOPSIS</span></div>
+  <div class="card stat" style="margin:0"><b>PROMETHEE II</b><span>Metode Terpilih Operasional</span></div>
+</div>
+
+<div class="card scroll">
+  <h2>Tabel Perbandingan 8 Dimensi Evaluasi</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>No</th>
+        <th>Dimensi Evaluasi</th>
+        <th class="n">AHP-TOPSIS</th>
+        <th class="n">AHP-PROMETHEE II</th>
+        <th>Arah Penilaian</th>
+        <th>Metode yang Lebih Unggul</th>
+      </tr>
+    </thead>
+    <tbody>
+    {% for r in baris %}
+      <tr>
+        <td><span class="rank">{{ r.no }}</span></td>
+        <td><strong>{{ r.dimensi }}</strong></td>
+        <td class="n">{{ r.fmt_topsis }}</td>
+        <td class="n">{{ r.fmt_promethee }}</td>
+        <td><span class="sub" style="margin:0;font-size:13px;">{{ r.kriteria }}</span></td>
+        <td>
+          {% if r.kode_unggul == 'promethee' %}
+            <span class="energi-badge pltb">{{ r.unggul }}</span>
+          {% elif r.kode_unggul == 'topsis' %}
+            <span class="energi-badge plts">{{ r.unggul }}</span>
+          {% else %}
+            <span class="pill">{{ r.unggul }}</span>
+          {% endif %}
+        </td>
+      </tr>
+    {% endfor %}
+    </tbody>
+  </table>
+</div>
+
+<div class="panel">
+  <span class="editorial-eyebrow">Visualisasi Perbandingan</span>
+  <h2 style="margin-bottom:6px;">Grafik Perbandingan AHP-TOPSIS vs AHP-PROMETHEE II</h2>
+  <p class="sub" style="margin-bottom:18px;">Proporsi relatif nilai pada setiap dimensi evaluasi nomor 0–7.</p>
+
+  <div class="grid g2">
+  {% for r in baris %}
+    <div class="card" style="margin-bottom:0;">
+      <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:10px;margin-bottom:10px;">
+        <div>
+          <span class="method-num" style="margin-bottom:2px;">Dimensi {{ r.no }}</span>
+          <h3 style="margin:0;font-size:16px;">{{ r.dimensi }}</h3>
+          <small class="sub">{{ r.kriteria }}</small>
+        </div>
+      </div>
+
+      <div style="display:grid;gap:10px;">
+        <div>
+          <div class="sim-mini-label" style="color:var(--ink);margin-bottom:4px;">
+            <span>AHP-TOPSIS</span>
+            <span style="font-family:var(--font-mono);">{{ r.fmt_topsis }}</span>
+          </div>
+          <div class="bar"><i style="width:{{ r.pct_topsis|stringformat:'.1f' }}%;background:var(--forest);"></i></div>
+        </div>
+        <div>
+          <div class="sim-mini-label" style="color:var(--ink);margin-bottom:4px;">
+            <span>AHP-PROMETHEE II</span>
+            <span style="font-family:var(--font-mono);">{{ r.fmt_promethee }}</span>
+          </div>
+          <div class="bar"><i style="width:{{ r.pct_promethee|stringformat:'.1f' }}%;background:var(--terracotta);"></i></div>
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+  </div>
+</div>
+{% endif %}
+{% endblock %}
+

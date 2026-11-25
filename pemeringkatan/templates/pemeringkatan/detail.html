@@ -1,0 +1,113 @@
+{% extends "pemeringkatan/base.html" %}
+{% load static %}
+{% block title %}{{ w.kabkota }}{% endblock %}
+{% block content %}
+<h1>{{ w.kabkota }}</h1>
+<p class="sub">{{ w.provinsi }}{% if w.jenis %} · {{ w.jenis }}{% endif %} · Kode BPS {{ w.kode_bps }}</p>
+
+<div class="grid g4" style="margin-bottom:22px">
+  <div class="card stat" style="margin:0"><b>#{{ w.peringkat_promethee }}</b><span>Peringkat PROMETHEE II (dari {{ total }})</span></div>
+  <div class="card stat" style="margin:0"><b>{{ w.net_flow|floatformat:4 }}</b><span>Net flow (Skor Kelayakan)</span></div>
+  <div class="card stat" style="margin:0"><b>#{{ w.peringkat_topsis }}</b><span>Peringkat TOPSIS</span></div>
+  <div class="card stat" style="margin:0"><b>{{ w.v_topsis|floatformat:4 }}</b><span>Nilai preferensi TOPSIS</span></div>
+</div>
+
+<div class="detail-hero-grid">
+  <div class="energi-rek-card">
+    <div>
+      <span class="editorial-eyebrow">Rekomendasi Utama</span>
+      <div style="display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-top:4px;">
+        <h2 style="margin:0;font-size:24px;">{{ rekomendasi.judul }}</h2>
+        <span class="energi-badge {{ rekomendasi.kode|lower }}">{{ rekomendasi.ringkas }}</span>
+      </div>
+    </div>
+
+    <div class="energi-photo-wrap">
+      {% if rekomendasi.kode == 'PLTB' %}
+      <img src="{% static 'pemeringkatan/images/pltb-wind.jpg' %}" alt="Visualisasi kawasan PLTB untuk {{ w.kabkota }}">
+      {% else %}
+      <img src="{% static 'pemeringkatan/images/plts-solar.jpg' %}" alt="Visualisasi kawasan PLTS untuk {{ w.kabkota }}">
+      {% endif %}
+    </div>
+
+    <div>
+      <h3 style="font-size:16px;margin-bottom:6px;">Alasan Rekomendasi</h3>
+      <p style="margin:0;font-size:14.5px;color:var(--ink);">{{ rekomendasi.alasan }}</p>
+    </div>
+
+    <div class="energi-compare-bars">
+      <div class="sim-mini-bar">
+        <div class="sim-mini-label" style="color:var(--ink);">
+          <span>Potensi Energi Surya (K-6)</span>
+          <span>{{ rekomendasi.nilai_surya|floatformat:2 }} W/m² · Persentil {{ rekomendasi.persentil_surya|floatformat:1 }}%</span>
+        </div>
+        <div class="bar"><i style="width:{{ rekomendasi.persentil_surya|stringformat:'.1f' }}%;background:var(--terracotta);"></i></div>
+      </div>
+      <div class="sim-mini-bar">
+        <div class="sim-mini-label" style="color:var(--ink);">
+          <span>Potensi Energi Angin 100 m (K-7)</span>
+          <span>{{ rekomendasi.nilai_angin|floatformat:2 }} m/s · Persentil {{ rekomendasi.persentil_angin|floatformat:1 }}%</span>
+        </div>
+        <div class="bar"><i style="width:{{ rekomendasi.persentil_angin|stringformat:'.1f' }}%;background:var(--forest);"></i></div>
+      </div>
+    </div>
+
+    <div>
+      <h3 style="font-size:15px;margin-bottom:4px;">Ringkasan Karakteristik Wilayah</h3>
+      <p style="margin:0;font-size:14px;">{{ karakteristik }}</p>
+    </div>
+  </div>
+
+  <div class="panel panorama-card">
+    <div>
+      <span class="editorial-eyebrow">Panorama Geografis Wilayah</span>
+      <h2 style="margin:2px 0 0;font-size:21px;">Lanskap {{ w.kabkota }}</h2>
+    </div>
+    <figure class="landscape-showcase">
+      <img
+        src="{{ gambar_lanskap }}"
+        alt="Panorama geografis {{ w.kabkota }}, {{ w.provinsi }}"
+        loading="lazy"
+        onerror="this.onerror=null;this.src='{{ gambar_fallback }}';"
+      >
+      <figcaption class="landscape-overlay">
+        <h2>{{ w.kabkota }}</h2>
+        <p>{{ w.provinsi }}</p>
+      </figcaption>
+    </figure>
+    <div class="panorama-caption">
+      <span>{% if w.jenis %}{{ w.jenis }}{% else %}Wilayah Administratif{% endif %} · {{ w.provinsi }}</span>
+      <span style="font-family:var(--font-mono);color:var(--dark-green);">BPS {{ w.kode_bps }}</span>
+    </div>
+    <div class="panorama-geo-box">
+      <h3>Karakteristik Geografis</h3>
+      <p>{{ deskripsi_geografis }}</p>
+    </div>
+  </div>
+</div>
+
+<div class="card scroll">
+  <h2>Nilai kriteria</h2>
+  <table>
+    <thead><tr><th>Kriteria</th><th>Aspek</th><th>Atribut</th><th class="n">Nilai</th><th class="n">Bobot</th><th>Posisi dibanding wilayah lain</th></tr></thead>
+    <tbody>
+    {% for b in baris %}
+      <tr>
+        <td>{{ b.kode }} {{ b.nama }}</td>
+        <td>{{ b.aspek }}</td>
+        <td><span class="pill {{ b.atribut }}">{{ b.atribut }}</span></td>
+        <td class="n">{{ b.nilai|floatformat:2 }} {{ b.satuan }}</td>
+        <td class="n">{{ b.bobot|floatformat:2 }}%</td>
+        <td style="min-width:200px">
+          <div class="bar"><i style="width:{{ b.unggul|stringformat:'.1f' }}%"></i></div>
+          <small class="sub">Lebih baik dari {{ b.unggul|floatformat:1 }}% wilayah lain</small>
+        </td>
+      </tr>
+    {% endfor %}
+    </tbody>
+  </table>
+  <p class="sub" style="margin:12px 0 0">Benefit: semakin besar semakin baik. Cost: semakin kecil semakin baik.</p>
+</div>
+
+<p><a class="btn utama" href="{% url 'pemeringkatan:simulasi' %}">Simulasikan dengan bobot sendiri</a></p>
+{% endblock %}

@@ -1,0 +1,181 @@
+{% extends "pemeringkatan/base.html" %}
+{% block title %}Hasil Simulasi{% endblock %}
+{% block content %}
+<h1>Hasil Simulasi Anda</h1>
+<p class="sub">Pemeringkatan {{ total }} wilayah menggunakan PROMETHEE II berdasarkan bobot kriteria yang Anda pilih.</p>
+
+<div class="aksi" style="margin-bottom:18px">
+  <a class="btn utama btn-ubah-bobot" href="{% url 'pemeringkatan:simulasi' %}">← Ubah bobot lagi</a>
+</div>
+
+<div class="grid grid-hasil-3" style="margin-bottom:22px">
+  <div class="card stat" style="margin:0"><b>{{ total }}</b><span>Total wilayah disimulasikan</span></div>
+  <div class="card stat" style="margin:0"><b>{% if top10 %}{{ top10.0.kabkota }}{% else %}-{% endif %}</b><span>Peringkat #1 hasil simulasi</span></div>
+  <div class="card stat" style="margin:0"><b>{% if top10 %}{{ top10.0.flow|floatformat:4 }}{% else %}-{% endif %}</b><span>Skor Net Flow tertinggi</span></div>
+</div>
+
+<div class="card scroll">
+  <h2>Top 10 Hasil Simulasi</h2>
+  <table>
+    <thead><tr><th>Peringkat</th><th>Kabupaten/Kota</th><th>Provinsi</th><th class="n">Net flow</th></tr></thead>
+    <tbody>
+    {% for r in top10 %}
+      <tr>
+        <td><span class="rank">{{ r.rank_sim }}</span></td>
+        <td><a href="{% url 'pemeringkatan:detail' r.kode %}">{{ r.kabkota }}</a></td>
+        <td>{{ r.provinsi }}</td>
+        <td class="n">{{ r.flow|floatformat:4 }}</td>
+      </tr>
+    {% endfor %}
+    </tbody>
+  </table>
+</div>
+
+<div class="card scroll">
+  <h2>Bobot Kriteria Simulasi Anda</h2>
+  <table>
+    <thead><tr><th>Kriteria</th><th>Aspek</th><th>Atribut</th><th class="n">Bobot (%)</th></tr></thead>
+    <tbody>
+    {% for b in bobot %}
+      <tr>
+        <td>{{ b.kode }} {{ b.nama }}</td>
+        <td>{{ b.aspek }}</td>
+        <td><span class="pill {{ b.atribut }}">{{ b.atribut }}</span></td>
+        <td class="n">{{ b.simulasi|floatformat:2 }}%</td>
+      </tr>
+    {% endfor %}
+    </tbody>
+  </table>
+</div>
+
+<div class="card">
+  <h2>Seluruh Peringkat Hasil Simulasi ({{ total }})</h2>
+  <div class="filter"><input type="search" id="cari" placeholder="Cari kabupaten/kota atau provinsi"></div>
+  <div class="scroll">
+    <table id="tabel-semua">
+      <thead><tr><th>Peringkat</th><th>Kabupaten/Kota</th><th>Provinsi</th><th class="n">Net flow</th></tr></thead>
+      <tbody>
+      {% for r in daftar %}
+        <tr>
+          <td><span class="rank">{{ r.rank_sim }}</span></td>
+          <td><a href="{% url 'pemeringkatan:detail' r.kode %}">{{ r.kabkota }}</a></td>
+          <td>{{ r.provinsi }}</td>
+          <td class="n">{{ r.flow|floatformat:4 }}</td>
+        </tr>
+      {% endfor %}
+      </tbody>
+    </table>
+  </div>
+  <div class="pager" id="pager-simulasi" aria-label="Navigasi halaman hasil simulasi">
+    <span id="pager-info"></span>
+    <div class="pager-controls">
+      <button type="button" class="btn" id="pager-prev">← Sebelumnya</button>
+      <div class="pager-controls" id="pager-pages"></div>
+      <button type="button" class="btn" id="pager-next">Berikutnya →</button>
+    </div>
+  </div>
+</div>
+
+<script>
+(function () {
+  var PER_PAGE = 10;
+  var tbody = document.querySelector('#tabel-semua tbody');
+  var allRows = Array.prototype.slice.call(tbody.querySelectorAll('tr'));
+  var filteredRows = allRows.slice();
+  var currentPage = 1;
+
+  var inputCari = document.getElementById('cari');
+  var infoEl = document.getElementById('pager-info');
+  var pagesEl = document.getElementById('pager-pages');
+  var btnPrev = document.getElementById('pager-prev');
+  var btnNext = document.getElementById('pager-next');
+  var pagerBox = document.getElementById('pager-simulasi');
+
+  function buildPageNumbers(totalPages) {
+    pagesEl.innerHTML = '';
+    if (totalPages <= 1) return;
+    var pages = [];
+    for (var p = 1; p <= totalPages; p++) {
+      if (p === 1 || p === totalPages || (p >= currentPage - 1 && p <= currentPage + 1)) {
+        pages.push(p);
+      } else if (pages[pages.length - 1] !== '...') {
+        pages.push('...');
+      }
+    }
+    pages.forEach(function (item) {
+      if (item === '...') {
+        var dots = document.createElement('span');
+        dots.className = 'pager-dots';
+        dots.textContent = '…';
+        pagesEl.appendChild(dots);
+        return;
+      }
+      var btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = 'pager-num' + (item === currentPage ? ' aktif' : '');
+      btn.textContent = item;
+      btn.setAttribute('aria-label', 'Halaman ' + item);
+      if (item === currentPage) btn.setAttribute('aria-current', 'page');
+      btn.addEventListener('click', function () {
+        currentPage = item;
+        render();
+      });
+      pagesEl.appendChild(btn);
+    });
+  }
+
+  function render() {
+    var total = filteredRows.length;
+    var totalPages = Math.max(1, Math.ceil(total / PER_PAGE));
+    if (currentPage > totalPages) currentPage = totalPages;
+    if (currentPage < 1) currentPage = 1;
+
+    var start = (currentPage - 1) * PER_PAGE;
+    var end = Math.min(start + PER_PAGE, total);
+
+    allRows.forEach(function (tr) { tr.style.display = 'none'; });
+    for (var i = start; i < end; i++) {
+      filteredRows[i].style.display = '';
+    }
+
+    if (total === 0) {
+      infoEl.textContent = 'Tidak ada wilayah yang cocok.';
+      pagerBox.style.display = 'flex';
+    } else {
+      infoEl.textContent = 'Menampilkan ' + (start + 1) + '–' + end + ' dari ' + total + ' wilayah (Halaman ' + currentPage + ' dari ' + totalPages + ')';
+      pagerBox.style.display = 'flex';
+    }
+
+    btnPrev.disabled = currentPage <= 1;
+    btnNext.disabled = currentPage >= totalPages;
+    buildPageNumbers(totalPages);
+  }
+
+  inputCari.addEventListener('input', function () {
+    var q = this.value.trim().toLowerCase();
+    filteredRows = allRows.filter(function (tr) {
+      return tr.textContent.toLowerCase().indexOf(q) !== -1;
+    });
+    currentPage = 1;
+    render();
+  });
+
+  btnPrev.addEventListener('click', function () {
+    if (currentPage > 1) {
+      currentPage -= 1;
+      render();
+    }
+  });
+
+  btnNext.addEventListener('click', function () {
+    var totalPages = Math.max(1, Math.ceil(filteredRows.length / PER_PAGE));
+    if (currentPage < totalPages) {
+      currentPage += 1;
+      render();
+    }
+  });
+
+  render();
+})();
+</script>
+{% endblock %}
